@@ -56,7 +56,7 @@ root@xxxxxxxxxxxx:/#
 
 dbサーバーに入った状態で
 ```
-# mysql -u user -p -D master
+# mysql -u person -p -D master
 ```
 とすると、パスワードが聞かれるので`password`と入力( 打ち込んでも表示されない。正確に入力 )すると
 ```shell
