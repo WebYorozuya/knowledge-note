@@ -29,7 +29,7 @@ DATABASE_PASS="password"
 REDIS_VERSION="latest"
 ```
 
-1. /knowledge-note/knowledge-note/.env.example を .env にコピー
+1. /knowledge-note/knowledge-note/.env.example (Laravelプロジェクト) を .env にコピーして .env新規作成
 ```shell
 $ cd knowledge-note
 $ pwd
