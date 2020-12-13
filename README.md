@@ -5,8 +5,7 @@
 | mysql | ディレクトリ | MySQLデータvolume MySQLのデータが保管される | |
 | nginx | ディレクトリ | nginxの設定ファイル( default.conf )が置いてある | |
 | php | ディレクトリ | php(APサーバー)定義のDockerファイルとphpの設定ファイル(php.ini) が置いてある | APサーバーはdocker-compose.ymlではなくDockerfileで定義する必要がある |
-| source | ディレクトリ | 実際にコードを書いていくところ source配下の
-knowledge-noteがLaravelプロジェクト | 
+| knowledge-note | ディレクトリ | 実際にコードを書いていくところ Laravelプロジェクト | 
 | docker-compose.yml | ファイル | 各サーバーの定義が書かれたファイル | |
 | Docker_Commands.md | ファイル | 最低限のDockerコマンドをまとめたファイル | |
 | Laravel_Naming_Convention.md | ファイル | Laravelの命名規則とコーディング規約をまとめたファイル | |
