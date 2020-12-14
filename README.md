@@ -56,7 +56,7 @@
 
 1. .envを作成 ( `source配下` )
     ```shell
-    # cp .env.sample .env
+    # cp .env.example .env
     ```
 
 1. .envの定義
@@ -87,3 +87,16 @@
     ```
     # php artisan config:cache
     ```
+
+1. コンテナから脱出
+    ```
+    # exit
+    ```
+
+1. Dockerコンテナの再起動
+    ```shell
+    $ docker-compose restart
+    ```
+
+1. localhost:8080にアクセス
+
