@@ -2,14 +2,12 @@
 
 | 名称 | ディレクトリorファイル | 説明 | 補足 |
 | ---- | ---- | ---- | ---- |
-| mysql | ディレクトリ | MySQLデータvolume MySQLのデータが保管される | |
 | nginx | ディレクトリ | nginxの設定ファイル( default.conf )が置いてある | |
 | php | ディレクトリ | php(APサーバー)定義のDockerファイルとphpの設定ファイル(php.ini) が置いてある | APサーバーはdocker-compose.ymlではなくDockerfileで定義する必要がある |
-| knowledge-note | ディレクトリ | 実際にコードを書いていくところ Laravelプロジェクト | 
+| source | ディレクトリ | 実際にコードを書いていくところ Laravelプロジェクト | 
 | docker-compose.yml | ファイル | 各サーバーの定義が書かれたファイル | |
 | Docker_Commands.md | ファイル | 最低限のDockerコマンドをまとめたファイル | |
 | Laravel_Naming_Convention.md | ファイル | Laravelの命名規則とコーディング規約をまとめたファイル | |
-| .env | ファイル | 環境変数のファイル | データベースのパスワードなどを環境変数にしてある | バージョン管理対象外 |
 | .gitignore | ファイル | バージョン管理をしないファイルやディレクトリを定義 | .envファイルをバージョン管理しない様にしてある |
 | README.md | ファイル | このファイル | |
 
