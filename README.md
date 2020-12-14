@@ -23,7 +23,7 @@
     $ touch .env
     ```
 
-1. .envの定義
+1. .envの定義 
     ```
     NGINX_VERSION="latest"
     MYSQL_VERSION="8.0"
@@ -33,6 +33,7 @@
     DATABASE_PASS="自分で決めたデータベースのパスワード"
     REDIS_VERSION="latest"
     ```
+    - バージョン指定はDockerイメージのハッシュ値ではないことに注意してください。  
 
 1. Dockerコンテナの立ち上げ
     ```shell
@@ -99,4 +100,3 @@
     ```
 
 1. localhost:8080にアクセス
-

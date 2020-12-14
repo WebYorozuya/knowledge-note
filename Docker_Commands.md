@@ -33,7 +33,7 @@ $ docker-compose exec app bash
 root@xxxxxxxxxxxx:/#
 ```
 となったらappサーバーの中に入ることができている
-> 今の状態だと、root権限でなんでもできてしまうので、ユーザー権限を与える必要があるらしい
+> 今の状態だと、root権限でなんでもできてしまうので、ユーザー権限を与えるのが望ましいらしい
 
 ```shell
 root@xxxxxxxxxxxx:/# exit
@@ -56,9 +56,9 @@ root@xxxxxxxxxxxx:/#
 
 dbサーバーに入った状態で
 ```
-# mysql -u person -p -D master
+# mysql -u 自分で決めたデータベースのユーザー名 -p -D 自分で決めたデータベースの名前
 ```
-とすると、パスワードが聞かれるので`password`と入力( 打ち込んでも表示されない。正確に入力 )すると
+とすると、パスワードが聞かれるので`自分で決めたデータベースのパスワード`を入力( 打ち込んでも表示されない。正確に入力 )すると
 ```shell
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 10
@@ -78,7 +78,7 @@ mysql>
 MySQLが起動する。
 ```shell
 mysql> select * from users;
-ERROR 1146 (42S02): Table 'master.users' doesn't exist
+ERROR 1146 (42S02): Table '自分で決めたデータベースの名前.users' doesn't exist
 ```
 SQL文を打ってみる
 ```shell
