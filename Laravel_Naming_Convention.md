@@ -185,6 +185,8 @@ public function triangle(
 
 - URLの先頭の `/` は省略する
 
+- /vendor配下のファイルやディレクトリは、コードの書き換えを行わないこと。触らない
+
 - メソッド名が長くなりそうな時は `動詞 + 名詞` で行う
 ```php
 public function getGreeting(): string
