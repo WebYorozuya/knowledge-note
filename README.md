@@ -31,7 +31,6 @@
     DATABASE_ROOT_PASS="自分で決めたデータベースの管理者用パスワード"
     DATABASE_USER="自分で決めたデータベースのユーザー名"
     DATABASE_PASS="自分で決めたデータベースのパスワード"
-    REDIS_VERSION="latest"
     ```
     - バージョン指定はDockerイメージのハッシュ値ではないことに注意してください。  
 
