@@ -51,7 +51,7 @@ $readable-code
 | 種類 | 記法 | 複数or単数 | 例 | 補足 |
 | --- | --- | --- | --- | --- |
 | **phpファイル** | アッパーキャメルケース | --- | AppServiceProvider.php | |
-| **nowledge-note/app配下のディレクトリ名** | アッパーキャメルケース | --- | knowledge-note/app/Service | |
+| **source/app配下のディレクトリ名** | アッパーキャメルケース | --- | source/app/Service | |
 | **変数名** | スネークケース | --- | $user_data |  |
 | **メソッド(関数)名** | キャメルケース | --- | getGreeting() | |
 | **クラス名** | アッパーキャメルケース | --- | ClassName | |
@@ -60,7 +60,7 @@ $readable-code
 | **views** | スネークケース | --- | show_profile.blade.php | |
 | **url** | ケバブケース | 単数 | user-profile | |
 
-その他は、必要になったタイミングで更新します...
+その他は、必要になったタイミングで追加します...
 
 ## - コーディング規約
 
