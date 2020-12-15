@@ -41,7 +41,7 @@ root@xxxxxxxxxxxx:/# exit
 でappサーバーから出る
 
 
-### db関連
+### dbサーバー関連
 
 - dbサーバーの中に入る
 ```shell
@@ -76,16 +76,19 @@ mysql>
 ```
 
 MySQLが起動する。
+
 ```shell
 mysql> select * from users;
 ERROR 1146 (42S02): Table '自分で決めたデータベースの名前.users' doesn't exist
 ```
-SQL文を打ってみる
+SQL文を打ってみる (usersテーブルを作成していないのでエラーが出ている)
+
 ```shell
 mysql> exit
 ```
-でMySQLから抜け出す
+exitでMySQLから抜け出す
+
 ```shell
 root@xxxxxxxxxxxx:/# exit
 ```
-でdbサーバーから抜け出す
+exitでdbサーバーから抜け出す
