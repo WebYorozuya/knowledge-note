@@ -22,6 +22,10 @@
 
 ## 参加しよう！
 
+1. Dockerのインストール
+    このプロジェクトでは、開発環境にDockerを使用します。  
+    なので、まずは[Dockerをインストール](https://docs.docker.jp/get-docker.html)しましょう！
+
 1. プロジェクトのクローン
     ```shell
     $ git clone https://github.com/KouheiYamamoto777/knowledge-note.git
