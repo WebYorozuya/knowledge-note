@@ -143,3 +143,8 @@
     ```
     - localhost:7070でphpMyAdminにログインする
     - コンテナを再度立ち上げても、前回作成したテーブルと挿入したデータが残っているのを確認する
+
+## エラー
+
+Q. MySQLが日本語化されない！  
+A. MySQL8.0では、Windowsをお使いの方は特別な設定を行う必要があるようです。[詳しくはこちら](https://qiita.com/rabbitbeef/items/14433a2c0a6f85c3b476)
