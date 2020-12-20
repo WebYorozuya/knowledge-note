@@ -22,7 +22,7 @@
 
 ## 参加しよう！
 
-1. Dockerのインストール
+1. Dockerのインストール  
     このプロジェクトでは、開発環境にDockerを使用します。  
     なので、まずは[Dockerをインストール](https://docs.docker.jp/get-docker.html)しましょう！
 
