@@ -1,3 +1,9 @@
+# knowledge-noteへようこそ
+
+私たちのコミュニティのメンターである [おさないさん](https://www.youtube.com/channel/UCHxqQ8bUg5F2GW79D_DvSjQ/featured) へのプレゼントとして立ち上げられたプロジェクトです 🎁
+
+おさないさんのチャンネルメンバーに使ってもらえるナレッジ蓄積ツールです 🎉
+
 # knowledge-note - ディレクトリ、ファイルの役割
 
 | 名称 | ディレクトリorファイル | 説明 | 補足 |
