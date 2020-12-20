@@ -18,7 +18,12 @@
     $ git clone https://github.com/KouheiYamamoto777/knowledge-note.git
     ```
 
-1. .envの作成 (docker-compose.ymlが使う環境変数。`knowledge-note配下`)
+1. knowledge-noteへ移動
+    ```shell
+    $ cd knowledge-note
+    ```
+
+1. .envの作成 (docker-compose.ymlが使う環境変数。)
     ```shell
     $ touch .env
     ```
@@ -110,7 +115,6 @@
     - コンテナを立ち上げたり終了したり、コンテナに入ったり出たり、MySQLを起動したりしてみる
 
 1. localhost:7070にアクセス
-    - phpMyAdminのログイン画面で、ユーザー名に手順3で設定した `自分で決めたデータベースのユーザー名` を入力、パスワードに手順3で設定した `自分で決めたデータベースのパスワード` を入力する
     - phpMyAdminにログインできることを確認する
 
 1. MySQLとphpMyAdminの連携を確認する
@@ -129,5 +133,5 @@
     ```shell
     $ docker-compose up -d
     ```
-    - localhost:7070でphpMyAdminを表示し、ユーザー名・パスワードを入力しログインする
+    - localhost:7070でphpMyAdminにログインする
     - コンテナを再度立ち上げても、前回作成したテーブルと挿入したデータが残っているのを確認する
