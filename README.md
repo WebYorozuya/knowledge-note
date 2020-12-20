@@ -10,13 +10,14 @@
 
 | 名称 | ディレクトリorファイル | 説明 | 補足 |
 | ---- | ---- | ---- | ---- |
+| mysql | ディレクトリ | MySQLの設定ファイル( my.cnf )が置いてある | MySQLの日本語化 |
 | nginx | ディレクトリ | nginxの設定ファイル( default.conf )が置いてある | |
 | php | ディレクトリ | php(APサーバー)定義のDockerファイルとphpの設定ファイル(php.ini) が置いてある | APサーバーはdocker-compose.ymlではなくDockerfileで定義する必要がある |
 | source | ディレクトリ | 実際にコードを書いていくところ Laravelプロジェクト | 
 | docker-compose.yml | ファイル | 各サーバーの定義が書かれたファイル | |
 | Docker_Commands.md | ファイル | 最低限のDockerコマンドをまとめたファイル | |
 | Laravel_Naming_Convention.md | ファイル | Laravelの命名規則とコーディング規約をまとめたファイル | |
-| .gitignore | ファイル | バージョン管理をしないファイルやディレクトリを定義 | .envファイルをバージョン管理しない様にしてある |
+| .gitignore | ファイル | バージョン管理をしないファイルやディレクトリを定義 | .envファイルをバージョン管理しないため作成 |
 | README.md | ファイル | このファイル | |
 
 ## 参加しよう！
