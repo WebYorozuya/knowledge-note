@@ -11,7 +11,7 @@
 | 名称 | ディレクトリorファイル | 説明 | 補足 |
 | ---- | ---- | ---- | ---- |
 | mysql | ディレクトリ | MySQLの設定ファイル( my.cnf )が置いてある | MySQLの日本語化 |
-| nginx | ディレクトリ | nginxの設定ファイル( default.conf )が置いてある | |
+| nginx | ディレクトリ | Nginxの設定ファイル( default.conf )が置いてある | |
 | php | ディレクトリ | php(APサーバー)定義のDockerファイルとphpの設定ファイル(php.ini) が置いてある | APサーバーはdocker-compose.ymlではなくDockerfileで定義する必要がある |
 | source | ディレクトリ | 実際にコードを書いていくところ Laravelプロジェクト | 
 | docker-compose.yml | ファイル | 各サーバーの定義が書かれたファイル | |
