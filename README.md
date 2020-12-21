@@ -28,7 +28,7 @@
 
 1. プロジェクトのクローン
     ```shell
-    $ git clone https://github.com/KouheiYamamoto777/knowledge-note.git
+    $ git clone https://github.com/WebYorozuya/knowledge-note.git
     ```
 
 1. knowledge-noteへ移動
