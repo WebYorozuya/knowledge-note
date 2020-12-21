@@ -153,3 +153,6 @@
 
 Q. MySQLが日本語化されない！  
 A. MySQL8.0では、Windowsをお使いの方は特別な設定を行う必要があるようです。[詳しくはこちら](https://qiita.com/rabbitbeef/items/14433a2c0a6f85c3b476)
+
+README.md 最終更新日 2020-12-21  
+README.md 作成者 y-kouhei9
