@@ -80329,6 +80329,17 @@ if (document.getElementById('example')) {
 
 /***/ }),
 
+/***/ "./resources/sass/authlayout.scss":
+/*!****************************************!*\
+  !*** ./resources/sass/authlayout.scss ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/welcome.scss":
 /*!*************************************!*\
   !*** ./resources/sass/welcome.scss ***!
@@ -80341,15 +80352,16 @@ if (document.getElementById('example')) {
 /***/ }),
 
 /***/ 0:
-/*!*******************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/welcome.scss ***!
-  \*******************************************************************************************/
+/*!****************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/welcome.scss ./resources/sass/authlayout.scss ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /var/www/html/source/resources/js/app.js */"./resources/js/app.js");
 __webpack_require__(/*! /var/www/html/source/resources/sass/app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! /var/www/html/source/resources/sass/welcome.scss */"./resources/sass/welcome.scss");
+__webpack_require__(/*! /var/www/html/source/resources/sass/welcome.scss */"./resources/sass/welcome.scss");
+module.exports = __webpack_require__(/*! /var/www/html/source/resources/sass/authlayout.scss */"./resources/sass/authlayout.scss");
 
 
 /***/ })
