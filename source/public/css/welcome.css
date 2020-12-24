@@ -67,7 +67,7 @@
 }
 
 body {
-  background-image: url(/images/welcome_bg.jpg?b1b5c681f218e08680b1cf733910a599);
+  background-image: url(/images/welcome_bg.jpg?a7902519b58ab92c8191561daaf6d763);
   background-repeat: no-repeat;
   background-position: top center;
   height: 100vh;
@@ -98,6 +98,7 @@ body {
   position: relative;
   top: 20%;
   margin: auto;
+  font-weight: 900;
   border-right: 0.1em solid transparent;
   width: 12.1em;
   white-space: nowrap;
@@ -109,6 +110,7 @@ body {
 .blackcircle .title2 {
   position: relative;
   top: -10%;
+  font-weight: 900;
   margin: auto;
   text-align: center;
   border-right: 0.1em solid transparent;
