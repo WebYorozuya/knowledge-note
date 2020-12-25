@@ -27,10 +27,8 @@
                 <a class="navbar-brand red-bg" href="{{ url('/') }}">
                     <img src="./images/logo.jpg" class="logo red-bg ">
                 </a>
-       
             </div>
         </nav>
-
         <main class="py-4">
             @yield('content')
         </main>
