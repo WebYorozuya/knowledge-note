@@ -1,4 +1,5 @@
-@extends('layouts.authlayout')
+@extends('layouts.homelayout')
+<!-- homelayoutを使用するページが準備できたら、authlayoutに戻す。 -->
 
 @section('content')
 <div class="container">
