@@ -1,0 +1,54 @@
+.red-bg {
+  background-color: #963257;
+}
+
+.icon-box {
+  margin-right: 15px;
+}
+
+.icon-box a:hover {
+  -webkit-text-decoration-color: transparent;
+          text-decoration-color: transparent;
+}
+
+.icon-box .header-icon {
+  display: flex;
+  width: 39px;
+  height: 39px;
+  border-radius: 39px;
+  background-color: #faf4ee;
+  border: 1px solid #a37586;
+  box-shadow: 1px 1px 1px 1px #5c2135;
+  justify-content: center;
+  align-items: center;
+  color: #5c2135;
+  overflow: hidden;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.icon-box .header-icon:hover {
+  -webkit-animation: header-icon 2s linear infinite;
+          animation: header-icon 2s linear infinite;
+}
+
+@-webkit-keyframes header-icon {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes header-icon {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
