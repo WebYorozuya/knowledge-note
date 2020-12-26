@@ -1,0 +1,102 @@
+.title-area {
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-between;
+}
+
+.title-area .post-title {
+  font-size     : 20px;
+  vertical-align: center;
+}
+
+.post-btn {
+  margin: 3px;
+}
+
+.cancel-btn {
+  margin: 3px;
+}
+
+.links {
+  display        : flex;
+  flex-direction : row;
+  flex-wrap      : wrap;
+  justify-content: flex-start;
+}
+
+.links .link {
+  height       : 150px;
+  width        : 150px;
+  margin       : 4px;
+  border       : 1px solid #373c52;
+  border-radius: 3px;
+}
+
+.links .link .link-title {
+  height         : 50%;
+  font-size      : 15px;
+  display        : flex;
+  justify-content: center;
+  align-items    : flex-end;
+}
+
+.links .link .link-info {
+  height         : 50%;
+  display        : flex;
+  justify-content: center;
+  align-items    : flex-start;
+  font-size      : 15px;
+}
+
+.links .post {
+  height       : 150px;
+  width        : 150px;
+  margin       : 4px;
+  border       : 1px solid #373c52;
+  border-radius: 3px;
+}
+
+.links .post .post-title {
+  height          : 60%;
+  font-size       : 15px;
+  padding         : 5px;
+  border-bottom   : 1px solid #373c52;
+  background-color: #b3babb;
+  overflow-wrap   : break-word;
+  word-wrap       : break-word;
+  overflow        : hidden;
+}
+
+.links .post .post-info {
+  height         : 40%;
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-around;
+  padding-top    : 5px;
+}
+
+.links .post .post-info .post-info-left .contributor,
+.links .post .post-info .post-info-left .likes {
+  font-size  : 14px;
+  margin-left: 5px;
+}
+
+.links .post .post-info .post-info-left .contributor .post-icon,
+.links .post .post-info .post-info-left .likes .post-icon {
+  font-size   : 14px;
+  margin-right: 3px;
+}
+
+.links .post .post-info .post-info-right .osanai-mark {
+  font-size    : 10px;
+  height       : 40px;
+  width        : 40px;
+  border       : 1px solid #963257;
+  border-radius: 3px;
+  padding      : 2px;
+}
+
+.links .post .post-info .post-info-right .osanai-mark span {
+  color      : #963257;
+  font-weight: 900;
+}

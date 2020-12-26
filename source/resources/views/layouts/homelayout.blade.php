@@ -30,7 +30,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light red-bg shadow-sm">
             <div class="container red-bg">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand" href="{{ url('/home') }}">
                     <img src="./images/logo.png" class="logo red-bg ">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -46,7 +46,7 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         <li class="icon-box"><a href="{{ url('#') }}"><i class="fas fa-search fa-lg header-icon"></i></a></li>
-                        <li class="icon-box"><a href="{{ url('#') }}"><i class="fas fa-pen fa-lg header-icon"></i></a></li>
+                        <li class="icon-box"><a href="{{ url('/post') }}"><i class="fas fa-pen fa-lg header-icon"></i></a></li>
                         <li class="icon-box nav-item dropdown user-icon-box">
                             <a id="navbarDropdown" href="{{ url('#') }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 <i class="fas fa-user-alt fa-2x header-icon"></i>
