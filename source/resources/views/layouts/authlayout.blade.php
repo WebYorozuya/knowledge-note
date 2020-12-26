@@ -24,7 +24,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light red-bg shadow-sm">
             <div class="container red-bg">
-                <a class="navbar-brand red-bg" href="{{ url('/') }}">
+                <a class="navbar-brand red-bg" href="{{ url('/home') }}">
                     <img src="./images/logo.png" class="logo red-bg ">
                 </a>
             </div>
