@@ -53,12 +53,21 @@
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-right margin10" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="{{ url('linklist') }}">
+                                    link list
+                                </a>
+                                <a class="dropdown-item" href="{{ url('ranking') }}">
+                                    ranking
+                                </a>
+                                <a class="dropdown-item" href="{{ url('contact') }}">
+                                    contact
+                                </a>
+                                <a class="dropdown-item" href="{{ url('setting') }}">
+                                    setting
+                                </a>
                                 <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                     {{ __('Logout') }}
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    setting
                                 </a>
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">

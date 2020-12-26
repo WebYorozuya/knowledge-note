@@ -28,3 +28,15 @@ Route::get('/contact', function () {
 Route::get('/post', function () {
     return view('post');
 });
+
+Route::get('/linklist', function () {
+    return view('linklist');
+});
+
+Route::get('/ranking', function () {
+    return view('ranking');
+});
+
+Route::get('/setting', function () {
+    return view('setting');
+});
