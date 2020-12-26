@@ -36,8 +36,6 @@
             <div class="link-title">同じ題名</div>
             <div class="link-info"></div>
         </div>
-   
-       
         <div class="post">
             <div class="post-title">Laravelの導入をしてみたけど、いいかんじだった件</div>
             <div class="post-info">
