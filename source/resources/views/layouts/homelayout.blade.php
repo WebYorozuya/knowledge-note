@@ -21,6 +21,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/homelayout.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/home.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/post.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/contact.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -28,7 +31,7 @@
         <nav class="navbar navbar-expand-md navbar-light red-bg shadow-sm">
             <div class="container red-bg">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="./images/logo.jpg" class="logo red-bg ">
+                    <img src="./images/logo.png" class="logo red-bg ">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>

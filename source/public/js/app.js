@@ -80340,6 +80340,17 @@ if (document.getElementById('example')) {
 
 /***/ }),
 
+/***/ "./resources/sass/home.scss":
+/*!**********************************!*\
+  !*** ./resources/sass/home.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/homelayout.scss":
 /*!****************************************!*\
   !*** ./resources/sass/homelayout.scss ***!
@@ -80363,9 +80374,9 @@ if (document.getElementById('example')) {
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/welcome.scss ./resources/sass/authlayout.scss ./resources/sass/homelayout.scss ***!
-  \*************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/welcome.scss ./resources/sass/authlayout.scss ./resources/sass/home.scss ./resources/sass/homelayout.scss ***!
+  \****************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -80373,6 +80384,7 @@ __webpack_require__(/*! /var/www/html/source/resources/js/app.js */"./resources/
 __webpack_require__(/*! /var/www/html/source/resources/sass/app.scss */"./resources/sass/app.scss");
 __webpack_require__(/*! /var/www/html/source/resources/sass/welcome.scss */"./resources/sass/welcome.scss");
 __webpack_require__(/*! /var/www/html/source/resources/sass/authlayout.scss */"./resources/sass/authlayout.scss");
+__webpack_require__(/*! /var/www/html/source/resources/sass/home.scss */"./resources/sass/home.scss");
 module.exports = __webpack_require__(/*! /var/www/html/source/resources/sass/homelayout.scss */"./resources/sass/homelayout.scss");
 
 
