@@ -1,0 +1,28 @@
+h2 {
+    font-weight    : 300;
+    text-decoration: underline;
+    margin-left    : 15px;
+    margin-bottom  : 20px;
+}
+
+form {
+    border          : 1px solid #373c52;
+    padding         : 30px;
+    background-color: #faf4ee;
+    border-radius   : 5px;
+    margin-top      : 50px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #373c52;
+}
+
+.submit-btn {
+    margin-top : 10px;
+    margin-left: 15px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.textarea {
+    resize: vertical;
+}
