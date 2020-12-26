@@ -1,27 +1,31 @@
-$backshadow: #373c52;
-$red: #963257;
-$black: #373c52;
-$navy: #b3babb;
-$blue: #005fa2;
-$yellow: #ffdb72;
-$white: #faf4ee;
+@import "../frame/homelayout";
+
+$fontsize15: 15px;
+
+@mixin square-card($basic-size: 50px) {
+    height: $basic-size * 3;
+    width: $basic-size * 3;
+    margin: 4px;
+    border: 1px solid $black;
+    border-radius: 3px;
+}
+
+@mixin link-content() {
+    height: 50%;
+    font-size: $fontsize15 * 1.5;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
 
 .title-area {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     .post-title {
-        font-size: 25px;
+        font-size: $fontsize15 * 1.5;
         vertical-align: center;
     }
-}
-
-.post-btn {
-    margin: 3px;
-}
-
-.cancel-btn {
-    margin: 3px;
 }
 
 .links {
@@ -30,39 +34,24 @@ $white: #faf4ee;
     flex-wrap: wrap;
     justify-content: flex-start;
     .link {
-        height: 150px;
-        width: 150px;
-        margin: 4px;
-        border: 1px solid $black;
-        border-radius: 3px;
+        @include square-card();
         .link-title {
-            height: 50%;
-            font-size: 15px;
-            display: flex;
-            justify-content: center;
+            @include link-content();
             align-items: flex-end;
         }
-
         .link-info {
-            height: 50%;
-            display: flex;
-            justify-content: center;
+            @include link-content();
             align-items: flex-start;
-            font-size: 15px;
         }
     }
 
     .post {
-        height: 150px;
-        width: 150px;
-        margin: 4px;
-        border: 1px solid $backshadow;
-        border-radius: 3px;
+        @include square-card();
         .post-title {
             height: 60%;
-            font-size: 15px;
+            font-size: $fontsize15;
             padding: 5px;
-            border-bottom: 1px solid $backshadow;
+            border-bottom: 1px solid $black;
             background-color: $navy;
             overflow-wrap: break-word;
             word-wrap: break-word;
@@ -77,22 +66,22 @@ $white: #faf4ee;
             .post-info-left {
                 .contributor,
                 .likes {
-                    font-size: 14px;
+                    font-size: $fontsize15;
                     margin-left: 5px;
                     .post-icon {
-                        font-size: 14px;
-                        margin-right: 3px;
+                        font-size: $fontsize15;
+                        margin-right: 5px;
                     }
                 }
             }
             .post-info-right {
                 .osanai-mark {
-                    font-size: 10px;
-                    height: 40px;
-                    width: 40px;
+                    font-size: 5px;
+                    height: 50px;
+                    width: 50px;
                     border: 1px solid $red;
-                    border-radius: 3px;
-                    padding: 2px;
+                    border-radius: 5px;
+                    padding: 5px;
                     span {
                         color: $red;
                         font-weight: 900;

@@ -1,0 +1,31 @@
+@import "../../../base/colors";
+
+.header-icon {
+    display: flex;
+    width: 39px;
+    height: 39px;
+    border-radius: 39px;
+    background-color: $white;
+    border: 1px solid $light-red;
+    box-shadow: 1px 1px 1px 1px $dark-red;
+    justify-content: center;
+    align-items: center;
+    color: $dark-red;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    &:hover {
+        animation: header-icon 2s linear infinite;
+    }
+}
+
+@keyframes header-icon {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+

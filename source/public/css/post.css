@@ -1,102 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);.bg-red {
+  background-color: #963257;
+}
+
+.bg-blue {
+  background-color: #005fa2;
+}
+
+.bg-yellow {
+  background-color: #ffdb72;
+}
+
+.bg-white {
+  background-color: #faf4ee;
+}
+
+a:hover {
+  -webkit-text-decoration-color: transparent;
+          text-decoration-color: transparent;
+}
+
+.bd-red {
+  color: #963257;
+}
+
+.bd-blue {
+  color: #005fa2;
+}
+
+.bd-yellow {
+  color: #ffdb72;
+}
+
+.bd-white {
+  color: #faf4ee;
+}
+
+.icon-box {
+  margin-right: 15px;
+}
+
 .title-area {
-  display        : flex;
-  flex-direction : row;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
 .title-area .post-title {
-  font-size     : 20px;
+  font-size: 22.5px;
   vertical-align: center;
 }
 
-.post-btn {
-  margin: 3px;
-}
-
-.cancel-btn {
-  margin: 3px;
-}
-
 .links {
-  display        : flex;
-  flex-direction : row;
-  flex-wrap      : wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
 }
 
 .links .link {
-  height       : 150px;
-  width        : 150px;
-  margin       : 4px;
-  border       : 1px solid #373c52;
+  height: 150px;
+  width: 150px;
+  margin: 4px;
+  border: 1px solid #373c52;
   border-radius: 3px;
 }
 
 .links .link .link-title {
-  height         : 50%;
-  font-size      : 15px;
-  display        : flex;
+  height: 50%;
+  font-size: 22.5px;
+  font-weight: 500;
+  display: flex;
   justify-content: center;
-  align-items    : flex-end;
+  align-items: flex-end;
 }
 
 .links .link .link-info {
-  height         : 50%;
-  display        : flex;
+  height: 50%;
+  font-size: 22.5px;
+  font-weight: 500;
+  display: flex;
   justify-content: center;
-  align-items    : flex-start;
-  font-size      : 15px;
+  align-items: flex-start;
 }
 
 .links .post {
-  height       : 150px;
-  width        : 150px;
-  margin       : 4px;
-  border       : 1px solid #373c52;
+  height: 150px;
+  width: 150px;
+  margin: 4px;
+  border: 1px solid #373c52;
   border-radius: 3px;
 }
 
 .links .post .post-title {
-  height          : 60%;
-  font-size       : 15px;
-  padding         : 5px;
-  border-bottom   : 1px solid #373c52;
+  height: 60%;
+  font-size: 15px;
+  padding: 5px;
+  border-bottom: 1px solid #373c52;
   background-color: #b3babb;
-  overflow-wrap   : break-word;
-  word-wrap       : break-word;
-  overflow        : hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  overflow: hidden;
 }
 
 .links .post .post-info {
-  height         : 40%;
-  display        : flex;
-  flex-direction : row;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  padding-top    : 5px;
+  padding-top: 5px;
 }
 
 .links .post .post-info .post-info-left .contributor,
 .links .post .post-info .post-info-left .likes {
-  font-size  : 14px;
+  font-size: 15px;
   margin-left: 5px;
 }
 
 .links .post .post-info .post-info-left .contributor .post-icon,
 .links .post .post-info .post-info-left .likes .post-icon {
-  font-size   : 14px;
-  margin-right: 3px;
+  font-size: 15px;
+  margin-right: 5px;
 }
 
 .links .post .post-info .post-info-right .osanai-mark {
-  font-size    : 10px;
-  height       : 40px;
-  width        : 40px;
-  border       : 1px solid #963257;
-  border-radius: 3px;
-  padding      : 2px;
+  font-size: 5px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #963257;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .links .post .post-info .post-info-right .osanai-mark span {
-  color      : #963257;
+  color: #963257;
   font-weight: 900;
 }
+

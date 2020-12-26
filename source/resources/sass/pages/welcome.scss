@@ -1,0 +1,88 @@
+@import "../contents/parts/component/btn";
+
+body {
+    background-image: url("../../images/welcome_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.blackcircle {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(1, 1, 1, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 500px;
+    width: 500px;
+    margin-top: -250px;
+    margin-left: -250px;
+    border-radius: 500px;
+    color: $white;
+    font-size: 30px;
+    .title1 {
+        position: relative;
+        top: 20%;
+        margin: auto;
+        font-weight: 900;
+        border-right: 0.1em solid transparent;
+        width: 12.1em;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 2s steps(12, end),
+            blink-caret 0.7s step-end 5 alternate;
+    }
+    .title2 {
+        position: relative;
+        top: -10%;
+        font-weight: 900;
+        margin: auto;
+        text-align: center;
+        border-right: 0.1em solid transparent;
+        width: 7.2em;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: color-2 3.3s, typing 1.2s 3.3s steps(7, end),
+            blink-caret-2 0.7s 3.3s step-end infinite alternate;
+    }
+    .btns {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 250px;
+        width: 400px;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@keyframes blink-caret {
+    50% {
+        border-color: $white;
+    }
+}
+@keyframes blink-caret-2 {
+    50% {
+        border-color: $white;
+    }
+}
+@keyframes color-2 {
+    0% {
+        color: transparent;
+    }
+    100% {
+        color: transparent;
+    }
+}
+
+
+

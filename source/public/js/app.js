@@ -80318,10 +80318,10 @@ if (document.getElementById('example')) {
 
 /***/ }),
 
-/***/ "./resources/sass/app.scss":
-/*!*********************************!*\
-  !*** ./resources/sass/app.scss ***!
-  \*********************************/
+/***/ "./resources/sass/base/bootstrap.scss":
+/*!********************************************!*\
+  !*** ./resources/sass/base/bootstrap.scss ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -80329,9 +80329,20 @@ if (document.getElementById('example')) {
 
 /***/ }),
 
-/***/ "./resources/sass/authlayout.scss":
+/***/ "./resources/sass/pages/contact.scss":
+/*!*******************************************!*\
+  !*** ./resources/sass/pages/contact.scss ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/pages/home.scss":
 /*!****************************************!*\
-  !*** ./resources/sass/authlayout.scss ***!
+  !*** ./resources/sass/pages/home.scss ***!
   \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -80340,31 +80351,9 @@ if (document.getElementById('example')) {
 
 /***/ }),
 
-/***/ "./resources/sass/contact.scss":
-/*!*************************************!*\
-  !*** ./resources/sass/contact.scss ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/sass/home.scss":
-/*!**********************************!*\
-  !*** ./resources/sass/home.scss ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/sass/homelayout.scss":
+/***/ "./resources/sass/pages/post.scss":
 /*!****************************************!*\
-  !*** ./resources/sass/homelayout.scss ***!
+  !*** ./resources/sass/pages/post.scss ***!
   \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -80373,21 +80362,10 @@ if (document.getElementById('example')) {
 
 /***/ }),
 
-/***/ "./resources/sass/post.scss":
-/*!**********************************!*\
-  !*** ./resources/sass/post.scss ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/sass/welcome.scss":
-/*!*************************************!*\
-  !*** ./resources/sass/welcome.scss ***!
-  \*************************************/
+/***/ "./resources/sass/pages/welcome.scss":
+/*!*******************************************!*\
+  !*** ./resources/sass/pages/welcome.scss ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -80396,20 +80374,18 @@ if (document.getElementById('example')) {
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/welcome.scss ./resources/sass/authlayout.scss ./resources/sass/home.scss ./resources/sass/homelayout.scss ./resources/sass/post.scss ./resources/sass/contact.scss ***!
-  \*************************************************************************************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/pages/welcome.scss ./resources/sass/pages/contact.scss ./resources/sass/pages/home.scss ./resources/sass/pages/post.scss ./resources/sass/base/bootstrap.scss ***!
+  \******************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /var/www/html/source/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /var/www/html/source/resources/sass/app.scss */"./resources/sass/app.scss");
-__webpack_require__(/*! /var/www/html/source/resources/sass/welcome.scss */"./resources/sass/welcome.scss");
-__webpack_require__(/*! /var/www/html/source/resources/sass/authlayout.scss */"./resources/sass/authlayout.scss");
-__webpack_require__(/*! /var/www/html/source/resources/sass/home.scss */"./resources/sass/home.scss");
-__webpack_require__(/*! /var/www/html/source/resources/sass/homelayout.scss */"./resources/sass/homelayout.scss");
-__webpack_require__(/*! /var/www/html/source/resources/sass/post.scss */"./resources/sass/post.scss");
-module.exports = __webpack_require__(/*! /var/www/html/source/resources/sass/contact.scss */"./resources/sass/contact.scss");
+__webpack_require__(/*! /var/www/html/source/resources/sass/pages/welcome.scss */"./resources/sass/pages/welcome.scss");
+__webpack_require__(/*! /var/www/html/source/resources/sass/pages/contact.scss */"./resources/sass/pages/contact.scss");
+__webpack_require__(/*! /var/www/html/source/resources/sass/pages/home.scss */"./resources/sass/pages/home.scss");
+__webpack_require__(/*! /var/www/html/source/resources/sass/pages/post.scss */"./resources/sass/pages/post.scss");
+module.exports = __webpack_require__(/*! /var/www/html/source/resources/sass/base/bootstrap.scss */"./resources/sass/base/bootstrap.scss");
 
 
 /***/ })

@@ -1,10 +1,8 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css",
     "/css/welcome.css": "/css/welcome.css",
-    "/css/authlayout.css": "/css/authlayout.css",
+    "/css/contact.css": "/css/contact.css",
     "/css/home.css": "/css/home.css",
-    "/css/homelayout.css": "/css/homelayout.css",
     "/css/post.css": "/css/post.css",
-    "/css/contact.css": "/css/contact.css"
+    "/css/bootstrap.css": "/css/bootstrap.css"
 }

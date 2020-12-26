@@ -17,15 +17,15 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('css/authlayout.css') }}">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/authlayout.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light red-bg shadow-sm">
-            <div class="container red-bg">
-                <a class="navbar-brand red-bg" href="{{ url('/home') }}">
-                    <img src="./images/logo.png" class="logo red-bg ">
+            <div class="container">
+                <a class="navbar-brand" href="{{ url('/home') }}">
+                    <img src="../images/logo.png" class="logo">
                 </a>
             </div>
         </nav>

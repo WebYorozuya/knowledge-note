@@ -1,0 +1,20 @@
+@import "../../../base/colors";
+
+.bg-red {
+    background-color: $red;
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+.bg-yellow {
+    background-color: $yellow;
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+a:hover {
+    text-decoration-color: transparent;
+}

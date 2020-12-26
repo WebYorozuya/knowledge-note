@@ -1,3 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);.bg-red {
+  background-color: #963257;
+}
+
+.bg-blue {
+  background-color: #005fa2;
+}
+
+.bg-yellow {
+  background-color: #ffdb72;
+}
+
+.bg-white {
+  background-color: #faf4ee;
+}
+
+a:hover {
+  -webkit-text-decoration-color: transparent;
+          text-decoration-color: transparent;
+}
+
+.bd-red {
+  color: #963257;
+}
+
+.bd-blue {
+  color: #005fa2;
+}
+
+.bd-yellow {
+  color: #ffdb72;
+}
+
+.bd-white {
+  color: #faf4ee;
+}
+
+.icon-box {
+  margin-right: 15px;
+}
+
 .text-center {
   text-align: center;
 }

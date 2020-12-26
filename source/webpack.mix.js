@@ -12,11 +12,9 @@ const mix = require('laravel-mix');
  */
 
 mix.ts('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css')
-    .sass('resources/sass/welcome.scss', 'public/css')
-    .sass('resources/sass/authlayout.scss', 'public/css')
-    .sass('resources/sass/home.scss', 'public/css')
-    .sass('resources/sass/homelayout.scss', 'public/css')
-    .sass('resources/sass/post.scss', 'public/css')
-    .sass('resources/sass/contact.scss', 'public/css');
+    .sass('resources/sass/pages/welcome.scss', 'public/css')
+    .sass('resources/sass/pages/contact.scss', 'public/css')
+    .sass('resources/sass/pages/home.scss', 'public/css')
+    .sass('resources/sass/pages/post.scss', 'public/css')
+    .sass('resources/sass/base/bootstrap.scss', 'public/css');
 

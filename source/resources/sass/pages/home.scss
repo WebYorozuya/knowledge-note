@@ -1,14 +1,8 @@
+@import "../frame/homelayout";
+
 .text-center {
     text-align: center;
 }
-
-$backshadow: #373c52;
-$red: #963257;
-$black: #373c52;
-$navy: #b3babb;
-$blue: #005fa2;
-$yellow: #ffdb72;
-$white: #faf4ee;
 
 .proverb-area {
     margin-top: 10px;
@@ -41,14 +35,14 @@ $white: #faf4ee;
         height: 150px;
         width: 150px;
         margin: 4px;
-        border: 1px solid $backshadow;
+        border: 1px solid $black;
         border-radius: 3px;
     }
     .post-title {
         height: 60%;
         font-size: 15px;
         padding: 5px;
-        border-bottom: 1px solid $backshadow;
+        border-bottom: 1px solid $black;
         background-color: $navy;
         overflow-wrap: break-word;
         word-wrap: break-word;
@@ -87,3 +81,5 @@ $white: #faf4ee;
         }
     }
 }
+
+

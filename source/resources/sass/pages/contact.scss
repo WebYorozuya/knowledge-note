@@ -1,10 +1,4 @@
-$backshadow: #373c52;
-$red: #963257;
-$black: #373c52;
-$navy: #b3babb;
-$blue: #005fa2;
-$yellow: #ffdb72;
-$white: #faf4ee;
+@import "../frame/homelayout";
 
 h2 {
     font-weight    : 300;
@@ -14,12 +8,11 @@ h2 {
 }
 
 form {
-    border          : 1px solid $backshadow;
+    border          : 1px solid $black;
     padding         : 30px;
-    background-color: #faf4ee;
     border-radius   : 5px;
     margin-top      : 50px;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px $backshadow;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px $black;
 }
 
 .submit-btn {
@@ -34,3 +27,7 @@ label {
 .textarea {
     resize: vertical;
 }
+
+
+
+

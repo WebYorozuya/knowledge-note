@@ -32,8 +32,8 @@
         </div>
     </div>
     <div class="links justify-content-start">
-        <div class="link">
-            <div class="link-title">同じ題名</div>
+        <div class="link bg-yellow">
+            <div class="link-title bd-black">同じ題名</div>
             <div class="link-info"></div>
         </div>
         <div class="post">
@@ -74,9 +74,9 @@
         </div>
     </div>
     <div class="links">
-        <div class="link">
-            <div class="link-title">同リンク</div>
-            <div class="link-info">Laravel</div>
+        <div class="link bg-blue">
+            <div class="link-title bd-black">同リンク</div>
+            <div class="link-info bd-black">Laravel</div>
         </div>
         <div class="post">
             <div class="post-title">Laravelの導入をしてみたけど、いいかんじだった件</div>

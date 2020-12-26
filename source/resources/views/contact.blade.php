@@ -3,7 +3,6 @@
 @section('content')
 
 <div class="container">
-
     <form>
         <h2>CONTACT US</h2>
         <div class="form-group col-md-6">
