@@ -1,0 +1,104 @@
+$backshadow: #373c52;
+$red: #963257;
+$black: #373c52;
+$navy: #b3babb;
+$blue: #005fa2;
+$yellow: #ffdb72;
+$white: #faf4ee;
+
+.title-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .post-title {
+        font-size: 25px;
+        vertical-align: center;
+    }
+}
+
+.post-btn {
+    margin: 3px;
+}
+
+.cancel-btn {
+    margin: 3px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    .link {
+        height: 150px;
+        width: 150px;
+        margin: 4px;
+        border: 1px solid $black;
+        border-radius: 3px;
+        .link-title {
+            height: 50%;
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        .link-info {
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            font-size: 15px;
+        }
+    }
+
+    .post {
+        height: 150px;
+        width: 150px;
+        margin: 4px;
+        border: 1px solid $backshadow;
+        border-radius: 3px;
+        .post-title {
+            height: 60%;
+            font-size: 15px;
+            padding: 5px;
+            border-bottom: 1px solid $backshadow;
+            background-color: $navy;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            overflow: hidden;
+        }
+        .post-info {
+            height: 40%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding-top: 5px;
+            .post-info-left {
+                .contributor,
+                .likes {
+                    font-size: 14px;
+                    margin-left: 5px;
+                    .post-icon {
+                        font-size: 14px;
+                        margin-right: 3px;
+                    }
+                }
+            }
+            .post-info-right {
+                .osanai-mark {
+                    font-size: 10px;
+                    height: 40px;
+                    width: 40px;
+                    border: 1px solid $red;
+                    border-radius: 3px;
+                    padding: 2px;
+                    span {
+                        color: $red;
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+    }
+}
