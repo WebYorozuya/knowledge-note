@@ -1,4 +1,4 @@
-@extends('layouts.homelayout')
+@extends('layouts.header')
 
 @section('content')
 
@@ -17,7 +17,7 @@
             <label for="text">Message</label>
             <textarea type="textarea" class="form-control" id="text" class="textarea" name="textarea" rows="4" cols="40">ここにお問い合わせ内容を記入してください。</textarea>
         </div>
-        <button type="submit" class="btn btn-primary submit-btn">Submit</button>
+        <button type="submit" class="btn btn-primary blue-btn">Submit</button>
     </form>
 </div>
 @endsection

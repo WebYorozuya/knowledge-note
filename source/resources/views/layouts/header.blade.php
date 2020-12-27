@@ -20,7 +20,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/homelayout.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/header.css') }}" rel="stylesheet">
     <link href="{{ asset('css/home.css') }}" rel="stylesheet">
     <link href="{{ asset('css/post.css') }}" rel="stylesheet">
     <link href="{{ asset('css/contact.css') }}" rel="stylesheet">
@@ -28,7 +28,7 @@
 
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-red shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm header">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/home') }}">
                     <img src="./images/logo.png" class="logo">
@@ -45,9 +45,9 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
-                        <li class="icon-box"><a href="{{ url('#') }}"><i class="fas fa-search fa-lg icon-btn"></i></a></li>
-                        <li class="icon-box"><a href="{{ url('/post') }}"><i class="fas fa-pen fa-lg icon-btn"></i></a></li>
-                        <li class="icon-box nav-item dropdown user-icon-box">
+                        <li><a href="{{ url('#') }}"><i class="fas fa-search fa-lg icon-btn"></i></a></li>
+                        <li><a href="{{ url('/post') }}"><i class="fas fa-pen fa-lg icon-btn"></i></a></li>
+                        <li class="nav-item dropdown user-icon-box">
                             <a id="navbarDropdown" href="{{ url('#') }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 <i class="fas fa-user-alt fa-2x icon-btn"></i>
                             </a>

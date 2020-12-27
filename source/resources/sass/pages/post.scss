@@ -1,11 +1,7 @@
 @import "../base/colors";
-@import "../frame/homelayout";
 @import "../contents/parts/component/osanaimark";
 @import "../contents/parts/module/postcard";
 @import "../contents/parts/module/linkcard";
-@import "../contents/parts/component/bgcolors";
-@import "../contents/parts/component/bordercolor";
-@import "../contents/parts/component/btn";
 @import "../contents/parts/component/iconbtn";
 
 $fontsize15: 15px;
@@ -25,3 +21,7 @@ $fontsize15: 15px;
     flex-direction: row;
     margin-left: 10px;
 }
+
+// a:hover{
+
+// }

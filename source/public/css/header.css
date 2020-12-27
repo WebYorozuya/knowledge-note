@@ -1,0 +1,49 @@
+.icon-btn {
+  display: flex;
+  width: 39px;
+  height: 39px;
+  border-radius: 39px;
+  background-color: #faf4ee;
+  border: 1px solid #a37586;
+  box-shadow: 1px 1px 1px 1px #5c2135;
+  justify-content: center;
+  align-items: center;
+  color: #5c2135;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.icon-btn:hover {
+  -webkit-animation: icon-btn 2s linear infinite;
+          animation: icon-btn 2s linear infinite;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #963257;
+}
+
+@-webkit-keyframes icon-btn {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes icon-btn {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.header {
+  background-color: #963257;
+}
+

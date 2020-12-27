@@ -1,5 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
+    "/css/authheader.css": "/css/authheader.css",
+    "/css/header.css": "/css/header.css",
     "/css/welcome.css": "/css/welcome.css",
     "/css/contact.css": "/css/contact.css",
     "/css/home.css": "/css/home.css",

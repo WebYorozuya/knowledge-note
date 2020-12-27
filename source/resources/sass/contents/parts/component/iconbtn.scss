@@ -12,11 +12,15 @@
     align-items: center;
     color: $dark-red;
     overflow: hidden;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px;
     &:hover {
         animation: icon-btn 2s linear infinite;
     }
+}
+
+a:hover {
+    text-decoration: none;
+    color: $red;
 }
 
 @keyframes icon-btn {
@@ -28,4 +32,3 @@
         transform: rotateY(360deg);
     }
 }
-

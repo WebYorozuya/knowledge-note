@@ -12,6 +12,8 @@ const mix = require('laravel-mix');
  */
 
 mix.ts('resources/js/app.js', 'public/js')
+    .sass('resources/sass/frame/authheader.scss', 'public/css')
+    .sass('resources/sass/frame/header.scss', 'public/css')
     .sass('resources/sass/pages/welcome.scss', 'public/css')
     .sass('resources/sass/pages/contact.scss', 'public/css')
     .sass('resources/sass/pages/home.scss', 'public/css')

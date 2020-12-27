@@ -18,11 +18,11 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/authlayout.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/authheader.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-red shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm header">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/home') }}">
                     <img src="../images/logo.png" class="logo">
