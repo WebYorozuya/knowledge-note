@@ -1,0 +1,45 @@
+@import "../../setting/mixin/squarecard";
+
+$fontsize15: 15px;
+
+.posts {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.post {
+    @include squarecard();
+
+    .post-title {
+        height: 60%;
+        font-size: $fontsize15;
+        padding: 5px;
+        border-bottom: 1px solid $black;
+        background-color: $navy;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+    .post-info {
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 5px;
+        .post-info-left {
+            .contributor,
+            .likes {
+                font-size: $fontsize15;
+                margin-left: 5px;
+                .post-icon {
+                    font-size: $fontsize15;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

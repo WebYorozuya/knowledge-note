@@ -1,0 +1,7 @@
+@mixin blackcircle($basic-size: 50px) {
+    height: $basic-size * 10;
+    width: $basic-size * 10;
+    margin-top:  $basic-size * -5;
+    margin-left: $basic-size * -5;
+    border-radius: $basic-size * 10;
+}

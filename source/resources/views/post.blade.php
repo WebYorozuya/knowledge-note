@@ -18,8 +18,8 @@
             <div class="card-header title-area">
                 <div class="card-title post-title">Laravelの導入をしてみたけど、いいかんじだった件</div>
                 <div class="btn-area">
-                    <button class="post-btn">投稿</button>
-                    <button class="cancel-btn">キャンセル</button>
+                    <button class="icon-btn"><i class="fas fa-paper-plane "></i></button>
+                    <button class="icon-btn"><i class="fas fa-window-close"></i></button>
                 </div>
             </div>
             <div class="card-body">

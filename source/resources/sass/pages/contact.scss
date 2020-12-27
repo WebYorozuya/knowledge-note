@@ -1,4 +1,9 @@
+@import "../base/colors";
+@import "../contents/parts/component/bgcolors";
+@import "../contents/parts/component/bordercolor";
 @import "../frame/homelayout";
+@import "../contents/parts/component/btn";
+
 
 h2 {
     font-weight    : 300;
@@ -13,11 +18,6 @@ form {
     border-radius   : 5px;
     margin-top      : 50px;
     box-shadow: 0.5px 0.5px 0.5px 0.5px $black;
-}
-
-.submit-btn {
-    margin-top : 10px;
-    margin-left: 15px;
 }
 
 label {

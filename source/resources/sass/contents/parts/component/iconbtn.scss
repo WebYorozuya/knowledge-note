@@ -1,6 +1,6 @@
 @import "../../../base/colors";
 
-.header-icon {
+.icon-btn {
     display: flex;
     width: 39px;
     height: 39px;
@@ -15,11 +15,11 @@
     margin-top: 5px;
     margin-bottom: 5px;
     &:hover {
-        animation: header-icon 2s linear infinite;
+        animation: icon-btn 2s linear infinite;
     }
 }
 
-@keyframes header-icon {
+@keyframes icon-btn {
     0% {
         transform: rotateY(0deg);
     }

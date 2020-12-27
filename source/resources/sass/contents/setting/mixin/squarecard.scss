@@ -1,0 +1,7 @@
+@mixin squarecard($basic-size: 50px) {
+    height: $basic-size * 3;
+    width: $basic-size * 3;
+    margin: 4px;
+    border: 1px solid $black;
+    border-radius: 3px;
+}

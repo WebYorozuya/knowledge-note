@@ -28,7 +28,7 @@
 
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light red-bg shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light bg-red shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/home') }}">
                     <img src="./images/logo.png" class="logo">
@@ -45,11 +45,11 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
-                        <li class="icon-box"><a href="{{ url('#') }}"><i class="fas fa-search fa-lg header-icon"></i></a></li>
-                        <li class="icon-box"><a href="{{ url('/post') }}"><i class="fas fa-pen fa-lg header-icon"></i></a></li>
+                        <li class="icon-box"><a href="{{ url('#') }}"><i class="fas fa-search fa-lg icon-btn"></i></a></li>
+                        <li class="icon-box"><a href="{{ url('/post') }}"><i class="fas fa-pen fa-lg icon-btn"></i></a></li>
                         <li class="icon-box nav-item dropdown user-icon-box">
                             <a id="navbarDropdown" href="{{ url('#') }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                <i class="fas fa-user-alt fa-2x header-icon"></i>
+                                <i class="fas fa-user-alt fa-2x icon-btn"></i>
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-right margin10" aria-labelledby="navbarDropdown">

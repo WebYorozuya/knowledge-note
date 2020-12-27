@@ -1,0 +1,21 @@
+@import "../../setting/mixin/squarecard";
+@import "../../setting/mixin/linkcardcontent";
+
+.links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    .link {
+        @include squarecard();
+        .link-title {
+            @include linkcontent();
+            align-items: flex-end;
+        }
+        .link-info {
+            @include linkcontent();
+            align-items: flex-start;
+        }
+    }
+
+}

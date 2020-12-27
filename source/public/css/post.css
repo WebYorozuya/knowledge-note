@@ -1,4 +1,165 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);.bg-red {
+.icon-btn {
+  display: flex;
+  width: 39px;
+  height: 39px;
+  border-radius: 39px;
+  background-color: #faf4ee;
+  border: 1px solid #a37586;
+  box-shadow: 1px 1px 1px 1px #5c2135;
+  justify-content: center;
+  align-items: center;
+  color: #5c2135;
+  overflow: hidden;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.icon-btn:hover {
+  -webkit-animation: icon-btn 2s linear infinite;
+          animation: icon-btn 2s linear infinite;
+}
+
+@-webkit-keyframes icon-btn {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes icon-btn {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.bg-red {
+  background-color: #963257;
+}
+
+.bg-blue {
+  background-color: #005fa2;
+}
+
+.bg-yellow {
+  background-color: #ffdb72;
+}
+
+.bg-white {
+  background-color: #faf4ee;
+}
+
+a:hover {
+  -webkit-text-decoration-color: transparent;
+          text-decoration-color: transparent;
+}
+
+.icon-box {
+  margin-right: 15px;
+}
+
+.osanai-mark {
+  font-size: 10px;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #963257;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+.osanai-mark span {
+  color: #963257;
+  font-weight: 900;
+}
+
+.posts {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.post {
+  height: 150px;
+  width: 150px;
+  margin: 4px;
+  border: 1px solid #373c52;
+  border-radius: 3px;
+}
+
+.post .post-title {
+  height: 60%;
+  font-size: 15px;
+  padding: 5px;
+  border-bottom: 1px solid #373c52;
+  background-color: #b3babb;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.post .post-info {
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+
+.post .post-info .post-info-left .contributor,
+.post .post-info .post-info-left .likes {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.post .post-info .post-info-left .contributor .post-icon,
+.post .post-info .post-info-left .likes .post-icon {
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.links .link {
+  height: 150px;
+  width: 150px;
+  margin: 4px;
+  border: 1px solid #373c52;
+  border-radius: 3px;
+}
+
+.links .link .link-title {
+  height: 50%;
+  font-size: 22.5px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.links .link .link-info {
+  height: 50%;
+  font-size: 22.5px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.bg-red {
   background-color: #963257;
 }
 
@@ -35,8 +196,93 @@ a:hover {
   color: #faf4ee;
 }
 
-.icon-box {
-  margin-right: 15px;
+.blue-btn {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  z-index: 1;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  font-weight: bold;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(0, 0, 0, 0.38);
+  color: #005fa2;
+  background-color: #005fa2;
+  border-bottom: solid 3px #003e6b;
+  font-size: 17px;
+  padding-top: 17px;
+}
+
+.blue-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+
+.red-btn {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  z-index: 1;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  font-weight: bold;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(0, 0, 0, 0.38);
+  color: #963257;
+  background-color: #963257;
+  border-bottom: solid 3px #5c2135;
+  font-size: 17px;
+  padding-top: 17px;
+}
+
+.red-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+
+.left-position {
+  position: relative;
+  left: 50px;
+}
+
+.right-position {
+  position: relative;
+  left: 50px;
+}
+
+.icon-btn {
+  display: flex;
+  width: 39px;
+  height: 39px;
+  border-radius: 39px;
+  background-color: #faf4ee;
+  border: 1px solid #a37586;
+  box-shadow: 1px 1px 1px 1px #5c2135;
+  justify-content: center;
+  align-items: center;
+  color: #5c2135;
+  overflow: hidden;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.icon-btn:hover {
+  -webkit-animation: icon-btn 2s linear infinite;
+          animation: icon-btn 2s linear infinite;
+}
+
+@keyframes icon-btn {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
 }
 
 .title-area {
@@ -50,89 +296,9 @@ a:hover {
   vertical-align: center;
 }
 
-.links {
+.btn-area {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
-.links .link {
-  height: 150px;
-  width: 150px;
-  margin: 4px;
-  border: 1px solid #373c52;
-  border-radius: 3px;
-}
-
-.links .link .link-title {
-  height: 50%;
-  font-size: 22.5px;
-  font-weight: 500;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.links .link .link-info {
-  height: 50%;
-  font-size: 22.5px;
-  font-weight: 500;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.links .post {
-  height: 150px;
-  width: 150px;
-  margin: 4px;
-  border: 1px solid #373c52;
-  border-radius: 3px;
-}
-
-.links .post .post-title {
-  height: 60%;
-  font-size: 15px;
-  padding: 5px;
-  border-bottom: 1px solid #373c52;
-  background-color: #b3babb;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  overflow: hidden;
-}
-
-.links .post .post-info {
-  height: 40%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 5px;
-}
-
-.links .post .post-info .post-info-left .contributor,
-.links .post .post-info .post-info-left .likes {
-  font-size: 15px;
-  margin-left: 5px;
-}
-
-.links .post .post-info .post-info-left .contributor .post-icon,
-.links .post .post-info .post-info-left .likes .post-icon {
-  font-size: 15px;
-  margin-right: 5px;
-}
-
-.links .post .post-info .post-info-right .osanai-mark {
-  font-size: 5px;
-  height: 50px;
-  width: 50px;
-  border: 1px solid #963257;
-  border-radius: 5px;
-  padding: 5px;
-}
-
-.links .post .post-info .post-info-right .osanai-mark span {
-  color: #963257;
-  font-weight: 900;
+  margin-left: 10px;
 }
 
