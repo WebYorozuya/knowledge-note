@@ -44,34 +44,11 @@
                     <div class="likes"><i class="fas fa-heart post-icon"></i><span>4</span></div>
                 </div>
                 <div class="post-info-right">
-                    <div class="osanai-mark"><span>おさない学長</span></div>
+                    <img src="../images/osanaimark.png" class="osanai-mark">
                 </div>
             </div>
         </div>
-        <div class="post">
-            <div class="post-title">Laravelの導入をしてみたけど、いいかんじだった件</div>
-            <div class="post-info">
-                <div class="post-info-left">
-                    <div class="contributor"><i class="fas fa-user-alt post-icon"></i><span>みけ</span></div>
-                    <div class="likes"><i class="fas fa-heart post-icon"></i><span>4</span></div>
-                </div>
-                <div class="post-info-right">
-                    <div class="osanai-mark"><span>おさない学長</span></div>
-                </div>
-            </div>
-        </div>
-        <div class="post">
-            <div class="post-title">Laravelの導入をしてみたけど、いいかんじだった件</div>
-            <div class="post-info">
-                <div class="post-info-left">
-                    <div class="contributor"><i class="fas fa-user-alt post-icon"></i><span>みけ</span></div>
-                    <div class="likes"><i class="fas fa-heart post-icon"></i><span>4</span></div>
-                </div>
-                <div class="post-info-right">
-                    <div class="osanai-mark"><span>おさない学長</span></div>
-                </div>
-            </div>
-        </div>
+    
     </div>
     <div class="links">
         <div class="yellow-linkcard">
@@ -86,11 +63,10 @@
                     <div class="likes"><i class="fas fa-heart post-icon"></i><span>4</span></div>
                 </div>
                 <div class="post-info-right">
-                    <div class="osanai-mark"><span>おさない学長</span></div>
+                    <img src="../images/osanaimark.png" class="osanai-mark">
                 </div>
             </div>
-        </div>
-        <div class="post">
+        </div> <div class="post">
             <div class="post-title">Laravelの導入をしてみたけど、いいかんじだった件</div>
             <div class="post-info">
                 <div class="post-info-left">
@@ -98,7 +74,18 @@
                     <div class="likes"><i class="fas fa-heart post-icon"></i><span>4</span></div>
                 </div>
                 <div class="post-info-right">
-                    <div class="osanai-mark"><span>おさない学長</span></div>
+                    <img src="../images/osanaimark.png" class="osanai-mark">
+                </div>
+            </div>
+        </div> <div class="post">
+            <div class="post-title">Laravelの導入をしてみたけど、いいかんじだった件</div>
+            <div class="post-info">
+                <div class="post-info-left">
+                    <div class="contributor"><i class="fas fa-user-alt post-icon"></i><span>みけ</span></div>
+                    <div class="likes"><i class="fas fa-heart post-icon"></i><span>4</span></div>
+                </div>
+                <div class="post-info-right">
+                    <img src="../images/osanaimark.png" class="osanai-mark">
                 </div>
             </div>
         </div>
