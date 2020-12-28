@@ -1,8 +1,8 @@
-@extends('layouts.homelayout')
+@extends('layouts.authheader')
 <!-- homelayoutを使用するページが準備できたら、authlayoutに戻す。 -->
 
 @section('content')
-<div class="container">
+<div class="container bg-white">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">

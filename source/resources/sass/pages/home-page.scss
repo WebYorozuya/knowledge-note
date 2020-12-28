@@ -1,0 +1,23 @@
+// utility
+@import "../contents/utility/colors";
+
+// component
+@import "../contents/component/proverb";
+@import "../contents/component/osanaimark";
+@import "../contents/component/btn-icon";
+
+
+// module
+@import "../contents/module/postcard";
+
+.text-center {
+    text-align: center;
+}
+
+.home-title {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
