@@ -19,9 +19,12 @@
     }
 }
 
+.icon-btn:hover {
+    color: $red;
+}
+
 a:hover {
     text-decoration: none;
-    color: $red;
 }
 
 @keyframes icon-btn {

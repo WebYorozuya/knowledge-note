@@ -47,9 +47,12 @@
           animation: icon-btn 2s linear infinite;
 }
 
+.icon-btn:hover {
+  color: #963257;
+}
+
 a:hover {
   text-decoration: none;
-  color: #963257;
 }
 
 @-webkit-keyframes icon-btn {

@@ -6,5 +6,6 @@
     "/css/contact-page.css": "/css/contact-page.css",
     "/css/home-page.css": "/css/home-page.css",
     "/css/post-page.css": "/css/post-page.css",
-    "/css/bootstrap.css": "/css/bootstrap.css"
+    "/css/bootstrap.css": "/css/bootstrap.css",
+    "/js/search_box.js": "/js/search_box.js"
 }

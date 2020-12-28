@@ -12,6 +12,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/search_box.js') }}" defer></script>
 
     <!-- Fonts -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -45,8 +46,10 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
-                        <li><a href="{{ url('#') }}"><i class="fas fa-search fa-lg icon-btn"></i></a></li>
-                        <li><a href="{{ url('/post') }}"><i class="fas fa-pen fa-lg icon-btn"></i></a></li>
+                        <li class="search-area"><i class="fas fa-search fa-lg icon-btn" id="search-btn"></i>
+                            <input class="search-box" id="search-box"></input>
+                        </li>
+                        <li class="post-icon-box"><a href="{{ url('/post') }}"><i class="fas fa-pen fa-lg icon-btn"></i></a></li>
                         <li class="nav-item dropdown user-icon-box">
                             <a id="navbarDropdown" href="{{ url('#') }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 <i class="fas fa-user-alt fa-2x icon-btn"></i>
