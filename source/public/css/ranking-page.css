@@ -1,0 +1,38 @@
+.rankings {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.rankings .ranking {
+  display: flex;
+  flex-direction: row;
+}
+
+.rankings .ranking > span {
+  display: inline-block;
+  margin: 15px;
+  font-size: 20px;
+}
+
+.total-ranking {
+  padding-left: 50px;
+}
+
+.total-ranking table {
+  border: 1px ridge black;
+  background-color: rgba(200, 200, 200, 0.4);
+}
+
+.total-ranking th {
+  height: 100px;
+  text-align: center;
+}
+
+.total-ranking td,
+.total-ranking tr {
+  height: 30px;
+  width: 50px;
+  border: 1px ridge black;
+}
+
