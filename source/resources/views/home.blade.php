@@ -37,7 +37,7 @@
                     <div class="likes"><i class="fas fa-heart post-icon"></i><span>4</span></div>
                 </div>
                 <div class="post-info-right">
-                    <div class="osanai-mark"><span>おさない学長</span></div>
+                    <img src="../images/osanaimark.png" class="osanai-mark">
                 </div>
             </div>
     </div>
