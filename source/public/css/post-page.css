@@ -18,6 +18,7 @@
   width: 30px;
   border: 2px groove rgba(248, 55, 55, 0.5);
   border-radius: 1px;
+  box-shadow: 0.3px 0.3px 0.3px 0.3px #963257;
 }
 
 .icon-btn {
