@@ -14,17 +14,10 @@
 }
 
 .osanai-mark {
-  font-size: 10px;
-  height: 40px;
-  width: 40px;
-  border: 1px solid #963257;
-  border-radius: 3px;
-  padding: 2px;
-}
-
-.osanai-mark span {
-  color: #963257;
-  font-weight: 900;
+  height: 30px;
+  width: 30px;
+  border: 2px groove rgba(248, 55, 55, 0.5);
+  border-radius: 1px;
 }
 
 .icon-btn {
