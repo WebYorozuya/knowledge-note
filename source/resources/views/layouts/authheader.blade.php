@@ -18,7 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/authheader.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/header-auth.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">

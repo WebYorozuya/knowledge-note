@@ -1,0 +1,28 @@
+// utility
+@import "../contents/utility/colors";
+
+// component
+@import "../contents/component/proverb";
+@import "../contents/component/osanaimark";
+@import "../contents/component/btn-icon";
+
+// module
+@import "../contents/module/postcard";
+@import "../contents/module/linkcard";
+
+
+.title-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .post-title {
+        font-size: 25px;
+        vertical-align: center;
+    }
+}
+
+.btn-area {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}

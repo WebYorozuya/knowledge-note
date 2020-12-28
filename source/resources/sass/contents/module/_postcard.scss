@@ -1,6 +1,9 @@
-@import "../../setting/mixin/squarecard";
+// utility
+@import "../utility/colors";
+@import "../utility/sizes";
 
-$fontsize15: 15px;
+// mixin
+@import "../../extension/mixin/card-square";
 
 .posts {
     margin-right: auto;
@@ -12,14 +15,14 @@ $fontsize15: 15px;
 }
 
 .post {
-    @include squarecard();
+    @include card-square();
 
     .post-title {
         height: 60%;
-        font-size: $fontsize15;
+        font-size: 15px;
         padding: 5px;
         border-bottom: 1px solid $black;
-        background-color: $navy;
+        background-color: rgba($navy, 0.3);
         overflow-wrap: break-word;
         word-wrap: break-word;
         overflow: hidden;
@@ -33,10 +36,10 @@ $fontsize15: 15px;
         .post-info-left {
             .contributor,
             .likes {
-                font-size: $fontsize15;
+                font-size: 15px;
                 margin-left: 5px;
                 .post-icon {
-                    font-size: $fontsize15;
+                    font-size: 15px;
                     margin-right: 5px;
                 }
             }

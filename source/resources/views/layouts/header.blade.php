@@ -21,9 +21,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('css/header.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/home.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/post.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/contact.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/home-page.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/post-page.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/contact-page.css') }}" rel="stylesheet">
 </head>
 
 <body>

@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container">
-    <form>
+    <form class="p-5">
         <h2>CONTACT US</h2>
         <div class="form-group col-md-6">
             <label for="email">Your email address</label>
@@ -17,7 +17,7 @@
             <label for="text">Message</label>
             <textarea type="textarea" class="form-control" id="text" class="textarea" name="textarea" rows="4" cols="40">ここにお問い合わせ内容を記入してください。</textarea>
         </div>
-        <button type="submit" class="btn btn-primary blue-btn">Submit</button>
+        <button type="submit" class="btn blue-btn-small ml-3">Submit</button>
     </form>
 </div>
 @endsection

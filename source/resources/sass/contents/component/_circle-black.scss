@@ -1,7 +1,11 @@
-@import "../../setting/mixin/blackcircle";
+// utility
+@import "../utility/colors";
 
-.blackcircle {
-    @include blackcircle();
+// mixin
+@import "../../extension/mixin/circle";
+
+.circle-black {
+    @include circle();
     display: flex;
     flex-direction: column;
     background-color: rgba(1, 1, 1, 0.7);

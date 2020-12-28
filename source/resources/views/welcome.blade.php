@@ -11,12 +11,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('css/welcome.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/welcome-page.css') }}">
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 
 <body>
-    <div class="blackcircle">
+    <div class="circle-black">
         <div class="title1">プログラミングアカデミー</div>
         <div class="title2">ナレッジノート</div>
         <div class="btns">
@@ -36,5 +36,4 @@
         </div>
     </div>
 </body>
-
 </html>

@@ -1,9 +1,7 @@
-@mixin linkcontent() {
+@mixin linkcard-content() {
     height: 50%;
-    font-size: $fontsize15 * 1.5;
+    font-size: 20px;
     font-weight: 500;
     display: flex;
     justify-content: center;
 }
-
-

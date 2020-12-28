@@ -1,10 +1,7 @@
-@mixin defaultbtn($basic-size: 50px) {
+@mixin btn-default($basic-size: 50px) {
     width: $basic-size * 2;
     height: $basic-size;
     border-radius: $basic-size;
-    
-    z-index: 1;
-    
     text-align: center;
     text-decoration: none;
     position: absolute;

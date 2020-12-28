@@ -1,23 +1,7 @@
-.proverb-area {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.proverb-area .proverb-title {
-  position: relative;
-  transform: rotate(-5deg);
-  top: 10px;
-  right: 10px;
-  z-index: 1;
-  width: 200px;
-  font-weight: 900;
-}
-
 .blue-btn {
   width: 100px;
   height: 50px;
   border-radius: 50px;
-  z-index: 1;
   text-align: center;
   text-decoration: none;
   position: absolute;
@@ -41,7 +25,6 @@
   width: 100px;
   height: 50px;
   border-radius: 50px;
-  z-index: 1;
   text-align: center;
   text-decoration: none;
   position: absolute;
@@ -61,23 +44,52 @@
   border-bottom: none;
 }
 
-.left-position {
-  position: relative;
-  left: 50px;
-}
-
-.right-position {
-  position: relative;
-  left: 50px;
-}
-
-.text-center {
+.blue-btn-small {
+  width: 60px;
+  height: 30px;
+  border-radius: 30px;
   text-align: center;
+  text-decoration: none;
+  position: absolute;
+  font-weight: bold;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(0, 0, 0, 0.38);
+  color: #005fa2;
+  background-color: #005fa2;
+  border-bottom: solid 3px #003e6b;
+  font-size: 10px;
 }
 
-.home-title {
-  font-size: 25px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.blue-btn-small:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+
+h2 {
+  font-weight: 300;
+  text-decoration: underline;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+form {
+  border: 1px solid #373c52;
+  padding: 30px;
+  border-radius: 5px;
+  margin-top: 50px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #373c52;
+}
+
+label {
+  font-size: 20px;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.sumbit-btn {
+  margin-left: 10px;
 }
 

@@ -1,9 +1,9 @@
 // utility
 @import "../contents/utility/colors";
 
-.header {
+.header{
     position: sticky;
     top: 0;
     background-color: $red;
-    z-index: 2;
+    z-index: 1;
 }

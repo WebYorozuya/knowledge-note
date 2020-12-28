@@ -80329,10 +80329,10 @@ if (document.getElementById('example')) {
 
 /***/ }),
 
-/***/ "./resources/sass/frame/authheader.scss":
-/*!**********************************************!*\
-  !*** ./resources/sass/frame/authheader.scss ***!
-  \**********************************************/
+/***/ "./resources/sass/frame/header-auth.scss":
+/*!***********************************************!*\
+  !*** ./resources/sass/frame/header-auth.scss ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -80351,10 +80351,10 @@ if (document.getElementById('example')) {
 
 /***/ }),
 
-/***/ "./resources/sass/pages/contact.scss":
-/*!*******************************************!*\
-  !*** ./resources/sass/pages/contact.scss ***!
-  \*******************************************/
+/***/ "./resources/sass/pages/contact-page.scss":
+/*!************************************************!*\
+  !*** ./resources/sass/pages/contact-page.scss ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -80362,10 +80362,10 @@ if (document.getElementById('example')) {
 
 /***/ }),
 
-/***/ "./resources/sass/pages/home.scss":
-/*!****************************************!*\
-  !*** ./resources/sass/pages/home.scss ***!
-  \****************************************/
+/***/ "./resources/sass/pages/home-page.scss":
+/*!*********************************************!*\
+  !*** ./resources/sass/pages/home-page.scss ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -80373,10 +80373,10 @@ if (document.getElementById('example')) {
 
 /***/ }),
 
-/***/ "./resources/sass/pages/post.scss":
-/*!****************************************!*\
-  !*** ./resources/sass/pages/post.scss ***!
-  \****************************************/
+/***/ "./resources/sass/pages/post-page.scss":
+/*!*********************************************!*\
+  !*** ./resources/sass/pages/post-page.scss ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -80384,10 +80384,10 @@ if (document.getElementById('example')) {
 
 /***/ }),
 
-/***/ "./resources/sass/pages/welcome.scss":
-/*!*******************************************!*\
-  !*** ./resources/sass/pages/welcome.scss ***!
-  \*******************************************/
+/***/ "./resources/sass/pages/welcome-page.scss":
+/*!************************************************!*\
+  !*** ./resources/sass/pages/welcome-page.scss ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -80396,19 +80396,19 @@ if (document.getElementById('example')) {
 /***/ }),
 
 /***/ 0:
-/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/frame/authheader.scss ./resources/sass/frame/header.scss ./resources/sass/pages/welcome.scss ./resources/sass/pages/contact.scss ./resources/sass/pages/home.scss ./resources/sass/pages/post.scss ./resources/sass/base/bootstrap.scss ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/frame/header-auth.scss ./resources/sass/frame/header.scss ./resources/sass/pages/welcome-page.scss ./resources/sass/pages/contact-page.scss ./resources/sass/pages/home-page.scss ./resources/sass/pages/post-page.scss ./resources/sass/base/bootstrap.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /var/www/html/source/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /var/www/html/source/resources/sass/frame/authheader.scss */"./resources/sass/frame/authheader.scss");
+__webpack_require__(/*! /var/www/html/source/resources/sass/frame/header-auth.scss */"./resources/sass/frame/header-auth.scss");
 __webpack_require__(/*! /var/www/html/source/resources/sass/frame/header.scss */"./resources/sass/frame/header.scss");
-__webpack_require__(/*! /var/www/html/source/resources/sass/pages/welcome.scss */"./resources/sass/pages/welcome.scss");
-__webpack_require__(/*! /var/www/html/source/resources/sass/pages/contact.scss */"./resources/sass/pages/contact.scss");
-__webpack_require__(/*! /var/www/html/source/resources/sass/pages/home.scss */"./resources/sass/pages/home.scss");
-__webpack_require__(/*! /var/www/html/source/resources/sass/pages/post.scss */"./resources/sass/pages/post.scss");
+__webpack_require__(/*! /var/www/html/source/resources/sass/pages/welcome-page.scss */"./resources/sass/pages/welcome-page.scss");
+__webpack_require__(/*! /var/www/html/source/resources/sass/pages/contact-page.scss */"./resources/sass/pages/contact-page.scss");
+__webpack_require__(/*! /var/www/html/source/resources/sass/pages/home-page.scss */"./resources/sass/pages/home-page.scss");
+__webpack_require__(/*! /var/www/html/source/resources/sass/pages/post-page.scss */"./resources/sass/pages/post-page.scss");
 module.exports = __webpack_require__(/*! /var/www/html/source/resources/sass/base/bootstrap.scss */"./resources/sass/base/bootstrap.scss");
 
 
