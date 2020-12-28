@@ -1,4 +1,4 @@
-@extends('layouts.homelayout')
+@extends('layouts.header')
 
 @section('content')
 <div class="container">
@@ -18,8 +18,8 @@
             <div class="card-header title-area">
                 <div class="card-title post-title">Laravelの導入をしてみたけど、いいかんじだった件</div>
                 <div class="btn-area">
-                    <button class="post-btn">投稿</button>
-                    <button class="cancel-btn">キャンセル</button>
+                    <a class="icon-btn"><i class="fas fa-paper-plane "></i></a>
+                    <a class="icon-btn"><i class="fas fa-window-close"></i></a>
                 </div>
             </div>
             <div class="card-body">
@@ -32,8 +32,8 @@
         </div>
     </div>
     <div class="links justify-content-start">
-        <div class="link">
-            <div class="link-title">同じ題名</div>
+        <div class="blue-linkcard">
+            <div class="link-title bd-black">同じ題名</div>
             <div class="link-info"></div>
         </div>
         <div class="post">
@@ -74,9 +74,9 @@
         </div>
     </div>
     <div class="links">
-        <div class="link">
-            <div class="link-title">同リンク</div>
-            <div class="link-info">Laravel</div>
+        <div class="yellow-linkcard">
+            <div class="link-title bd-black">同リンク</div>
+            <div class="link-info bd-black">Laravel</div>
         </div>
         <div class="post">
             <div class="post-title">Laravelの導入をしてみたけど、いいかんじだった件</div>

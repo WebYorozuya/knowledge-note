@@ -1,0 +1,31 @@
+// utility
+@import "../utility/colors";
+
+// mixin
+@import "../../extension/mixin/btn-default";
+
+.blue-btn {
+    @include btn-default();
+    color: $blue;
+    background-color: $blue;
+    border-bottom: solid 3px $dark-blue;
+    font-size: 17px;
+    padding-top: 14px;
+}
+
+.red-btn {
+    @include btn-default();
+    color: $red;
+    background-color: $red;
+    border-bottom: solid 3px $dark-red;
+    font-size: 17px;
+    padding-top: 14px;
+}
+
+.blue-btn-small {
+    @include btn-default(30px);
+    color: $blue;
+    background-color: $blue;
+    border-bottom: solid 3px $dark-blue;
+    font-size: 10px;
+}

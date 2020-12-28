@@ -11,24 +11,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('css/welcome.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/welcome-page.css') }}">
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 
 <body>
-    <div class="blackcircle">
+    <div class="circle-black">
         <div class="title1">プログラミングアカデミー</div>
         <div class="title2">ナレッジノート</div>
         <div class="btns">
             @if (Route::has('login'))
             <div class="btns">
                 @auth
-                <a href="{{ url('/home') }}" class="btn left-btn blue-bg">Home</a>
+                <a href="{{ url('/home') }}" class="btn left-position blue-btn">Home</a>
                 @else
-                <a href="{{ route('login') }}" class="btn left-btn blue-bg">Login</a>
+                <a href="{{ route('login') }}" class="btn left-position blue-btn">Login</a>
 
                 @if (Route::has('register'))
-                <a href="{{ route('register') }}" class="btn right-btn red-bg">Register</a>
+                <a href="{{ route('register') }}" class="btn right-position red-btn">Register</a>
                 @endif
                 @endauth
             </div>
@@ -36,5 +36,4 @@
         </div>
     </div>
 </body>
-
 </html>

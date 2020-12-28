@@ -1,0 +1,17 @@
+// utility
+@import "../utility/colors";
+
+// mixin
+@import "../../extension/mixin/circle";
+
+.circle-black {
+    @include circle();
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(1, 1, 1, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: $white;
+    font-size: 30px;
+}

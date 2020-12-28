@@ -1,0 +1,33 @@
+// utility
+@import "../utility/colors";
+
+// mixin
+@import "../../extension/mixin/linkcard-content";
+@import "../../extension/mixin/card-square";
+
+@mixin linkcard {
+    @include card-square();
+    .link-title {
+        @include linkcard-content();
+        align-items: flex-end;
+    }
+    .link-info {
+        @include linkcard-content();
+        align-items: flex-start;
+    }
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    .blue-linkcard {
+        @include linkcard();
+        background-color: rgba($blue, 0.5);
+    }
+    .yellow-linkcard {
+        @include linkcard();
+        background-color: rgba($yellow, 0.5);
+    }
+}
