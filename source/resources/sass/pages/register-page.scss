@@ -1,0 +1,16 @@
+.school-lossons {
+    height: 200px;
+    padding: 20px;
+    background-color: rgb(219, 200, 200);
+    border: 2px groove rgb(219, 200, 200);
+    border-radius: 10px;
+    list-style: none;
+    span {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+}
