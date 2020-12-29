@@ -21,9 +21,11 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
+
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('css/header.css') }}" rel="stylesheet">
     <link href="{{ asset('css/home-page.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/linklist-page.css') }}" rel="stylesheet">
     <link href="{{ asset('css/post-page.css') }}" rel="stylesheet">
     <link href="{{ asset('css/contact-page.css') }}" rel="stylesheet">
     <link href="{{ asset('css/ranking-page.css') }}" rel="stylesheet">
@@ -51,7 +53,7 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         <li class="search-area"><i class="fas fa-search fa-lg icon-btn" id="search-btn"></i>
-                            <input class="search-box" id="search-box"></input>
+                            <input class="search-box" id="search-box">
                         </li>
                         <li class="post-icon-box"><a href="{{ url('/post') }}"><i
                                     class="fas fa-pen fa-lg icon-btn"></i></a></li>
@@ -86,41 +88,41 @@
                         </li>
 
                         <!-- @guest
-                            @if (Route::has('login'))
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
-                            @endif
+                                @if (Route::has('login'))
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                </li>
+                                @endif
 
-                            @if (Route::has('register'))
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                            </li>
-                            @endif
+                                @if (Route::has('register'))
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
+                                @endif
                         @else -->
                             <!-- <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }}
-                                </a>
-
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                         document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
+                                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                        {{ Auth::user()->name }}
                                     </a>
 
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li> -->
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                             document.getElementById('logout-form').submit();">
+                                            {{ __('Logout') }}
+                                        </a>
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                            @csrf
+                                        </form>
+                                    </div>
+                                </li> -->
                         <!-- @endguest -->
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <main class="py-4 bg-white">
+        <main class="py-4 justify-content-center">
             @yield('content')
         </main>
     </div>
