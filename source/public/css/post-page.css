@@ -69,6 +69,10 @@ a:hover {
   }
 }
 
+.color-change {
+  color: #963257;
+}
+
 .posts {
   margin-right: auto;
   margin-left: auto;
