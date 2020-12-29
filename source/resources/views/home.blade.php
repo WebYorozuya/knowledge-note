@@ -1,7 +1,7 @@
 @extends('layouts.header')
 
 @section('content')
-    <div class="container bg-white">
+    <div class="container">
         <div class="row justify-content-center">
             <div class="proverb-area col-md-5">
                 <div class="proverb-title">
