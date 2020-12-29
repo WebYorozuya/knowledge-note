@@ -21,19 +21,20 @@
         <div class="title2">ナレッジノート</div>
         <div class="btns">
             @if (Route::has('login'))
-            <div class="btns">
-                @auth
-                <a href="{{ url('/home') }}" class="btn left-position blue-btn">Home</a>
-                @else
-                <a href="{{ route('login') }}" class="btn left-position blue-btn">Login</a>
+                <div class="btns">
+                    @auth
+                        <a href="{{ url('/home') }}" class="btn left-position blue-btn">Home</a>
+                    @else
+                        <a href="{{ route('login') }}" class="btn left-position blue-btn">Login</a>
 
-                @if (Route::has('register'))
-                <a href="{{ route('register') }}" class="btn right-position red-btn">Register</a>
-                @endif
-                @endauth
-            </div>
+                        @if (Route::has('register'))
+                            <a href="{{ route('register') }}" class="btn right-position red-btn">Register</a>
+                        @endif
+                    @endauth
+                </div>
             @endif
         </div>
     </div>
 </body>
+
 </html>

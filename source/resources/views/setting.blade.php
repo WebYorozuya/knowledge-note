@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container">
-setting
-</div>
+    <div class="container">
+        setting
+    </div>
 @endsection
