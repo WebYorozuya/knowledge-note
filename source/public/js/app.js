@@ -80373,6 +80373,17 @@ if (document.getElementById('example')) {
 
 /***/ }),
 
+/***/ "./resources/sass/pages/linklist-page.scss":
+/*!*************************************************!*\
+  !*** ./resources/sass/pages/linklist-page.scss ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/pages/post-page.scss":
 /*!*********************************************!*\
   !*** ./resources/sass/pages/post-page.scss ***!
@@ -80418,9 +80429,9 @@ if (document.getElementById('example')) {
 /***/ }),
 
 /***/ 0:
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/frame/header-auth.scss ./resources/sass/frame/header.scss ./resources/sass/pages/welcome-page.scss ./resources/sass/pages/register-page.scss ./resources/sass/pages/contact-page.scss ./resources/sass/pages/ranking-page.scss ./resources/sass/pages/home-page.scss ./resources/sass/pages/post-page.scss ./resources/sass/base/bootstrap.scss ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/frame/header-auth.scss ./resources/sass/frame/header.scss ./resources/sass/pages/welcome-page.scss ./resources/sass/pages/linklist-page.scss ./resources/sass/pages/register-page.scss ./resources/sass/pages/contact-page.scss ./resources/sass/pages/ranking-page.scss ./resources/sass/pages/home-page.scss ./resources/sass/pages/post-page.scss ./resources/sass/base/bootstrap.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -80428,6 +80439,7 @@ __webpack_require__(/*! /var/www/html/source/resources/js/app.js */"./resources/
 __webpack_require__(/*! /var/www/html/source/resources/sass/frame/header-auth.scss */"./resources/sass/frame/header-auth.scss");
 __webpack_require__(/*! /var/www/html/source/resources/sass/frame/header.scss */"./resources/sass/frame/header.scss");
 __webpack_require__(/*! /var/www/html/source/resources/sass/pages/welcome-page.scss */"./resources/sass/pages/welcome-page.scss");
+__webpack_require__(/*! /var/www/html/source/resources/sass/pages/linklist-page.scss */"./resources/sass/pages/linklist-page.scss");
 __webpack_require__(/*! /var/www/html/source/resources/sass/pages/register-page.scss */"./resources/sass/pages/register-page.scss");
 __webpack_require__(/*! /var/www/html/source/resources/sass/pages/contact-page.scss */"./resources/sass/pages/contact-page.scss");
 __webpack_require__(/*! /var/www/html/source/resources/sass/pages/ranking-page.scss */"./resources/sass/pages/ranking-page.scss");
