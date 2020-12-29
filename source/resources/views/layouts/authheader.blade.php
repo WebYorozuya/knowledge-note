@@ -19,6 +19,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('css/header-auth.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/register-page.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
