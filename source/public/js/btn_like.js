@@ -81,20 +81,56 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */,
-/* 1 */
-/*!*************************************************!*\
-  !*** multi ./resources/js/typescript/search.ts ***!
-  \*************************************************/
+/******/ ({
+
+/***/ "./resources/js/typescript/btn_like.ts":
+/*!*********************************************!*\
+  !*** ./resources/js/typescript/btn_like.ts ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-!(function webpackMissingModule() { var e = new Error("Cannot find module '/var/www/html/source/resources/js/typescript/search.ts'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+"use strict";
+
+{
+    var likeCounter_1 = document.getElementsByClassName("like-counter");
+    var LIKE_BTN_1 = document.getElementsByClassName("like");
+    var _loop_1 = function (i) {
+        LIKE_BTN_1[i].addEventListener("click", function () {
+            var num = parseInt(likeCounter_1[i].textContent);
+            LIKE_BTN_1[i].classList.toggle("color-change");
+            LIKE_BTN_1[i].classList.toggle("fas");
+            LIKE_BTN_1[i].classList.toggle("far");
+            if (LIKE_BTN_1[i].classList.contains("color-change")) {
+                likeCounter_1[i].textContent = num + 1;
+            }
+            else {
+                likeCounter_1[i].textContent = num - 1;
+            }
+        });
+    };
+    for (var i = 0; i < LIKE_BTN_1.length; i++) {
+        _loop_1(i);
+    }
+    ;
+}
+
+
+/***/ }),
+
+/***/ 2:
+/*!***************************************************!*\
+  !*** multi ./resources/js/typescript/btn_like.ts ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! /var/www/html/source/resources/js/typescript/btn_like.ts */"./resources/js/typescript/btn_like.ts");
 
 
 /***/ })
-/******/ ]);
+
+/******/ });

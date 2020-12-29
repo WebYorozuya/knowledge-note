@@ -9,5 +9,6 @@
     "/css/home-page.css": "/css/home-page.css",
     "/css/post-page.css": "/css/post-page.css",
     "/css/bootstrap.css": "/css/bootstrap.css",
-    "/js/search_box.js": "/js/search_box.js"
+    "/js/box_search.js": "/js/box_search.js",
+    "/js/btn_like.js": "/js/btn_like.js"
 }
