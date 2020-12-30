@@ -1,64 +1,69 @@
 @extends('layouts.header')
-
 @section('content')
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <h2> ランキング</h2>
-            <div class="col-md-12">
-                <span>投稿別</span>
-                <div>いいね取得数</div>
-                <div class="rankings">
-                    <div class="ranking">
-                        @for ($i = 1; $i < 6; $i++)
-                            <span>{{ $i }}</span>
-                            @component('components.postcard')
-                            @endcomponent
-                        @endfor
+    <div class="container justify-content-center col-md-8">
+        <div class="item justify-content-center col-md-12">RANKING</div>
+        <div class="sub-item">投稿別</div>
+        <div class="sub-sub-item">いいね取得数</div>
+        <div class="ranking-form">
+            @for ($i = 1; $i < 6; $i++)
+                <div class="ranking">
+                    <div class="rank">
+                        <div class="rank-icon">
+                            <div><i class="fas fa-crown crown"></i>{{ $i }}</div>
+                        </div>
                     </div>
+                    <div class="ranking-post-title"></div>
+                    <div class="ranking-like-counter"></div>
+                    <div class="contributor"></div>
                 </div>
-            </div>
-
-            <div class=" col-md-12">
-                <span>総合</span>
-                <div class="total-ranking row justify-content-start">
-                    <table>
-                        <tr>
-                            <th colspan="3">いいね総取得数</th>
-                        </tr>
-                        @for ($i = 1; $i < 6; $i++)
-                            <tr>
-                                <td>{{ $i }}</td>
-                                <td>みけ</td>
-                                <td>69</td>
-                            </tr>
-                        @endfor
-                    </table>
-                    <table>
-                        <tr>
-                            <th colspan="3">投稿数</th>
-                        </tr>
-                        @for ($i = 1; $i < 6; $i++)
-                            <tr>
-                                <td>{{ $i }}</td>
-                                <td>みけ</td>
-                                <td>69</td>
-                            </tr>
-                        @endfor
-                    </table>
-                    <table>
-                        <tr>
-                            <th colspan="3">おさないマーク</br>取得総数</th>
-                        </tr>
-                        @for ($i = 1; $i < 6; $i++)
-                            <tr>
-                                <td>{{ $i }}</td>
-                                <td>みけ</td>
-                                <td>69</td>
-                            </tr>
-                        @endfor
-                    </table>
-                </div>
-            </div>
+            @endfor
         </div>
-    @endsection
+        <div class="sub-item">総合</div>
+        <div class="sub-sub-item">いいね総取得数</div>
+        <div class="ranking-form">
+            @for ($i = 1; $i < 6; $i++)
+                <div class="ranking">
+                    <div class="rank">
+                        <div class="rank-icon">
+                            <div><i class="fas fa-crown crown"></i>{{ $i }}</div>
+                        </div>
+                    </div>
+                    <div class="ranking-post-title"></div>
+                    <div class="ranking-like-counter"></div>
+                    <div class="contributor"></div>
+                </div>
+            @endfor
+        </div>
+        <div class="sub-sub-item">投稿数</div>
+        <div class="ranking-form">
+            @for ($i = 1; $i < 6; $i++)
+                <div class="ranking">
+                    <div class="rank">
+                        <div class="rank-icon">
+                            <div><i class="fas fa-crown crown"></i>{{ $i }}</div>
+                        </div>
+                    </div>
+                    <div class="ranking-post-title"></div>
+                    <div class="ranking-like-counter"></div>
+                    <div class="contributor"></div>
+                </div>
+            @endfor
+        </div>
+        <div class="sub-sub-item">おさないマーク取得総数</div>
+        <div class="ranking-form">
+            @for ($i = 1; $i < 6; $i++)
+                <div class="ranking">
+                    <div class="rank">
+                        <div class="rank-icon">
+                            <div><i class="fas fa-crown crown"></i>{{ $i }}</div>
+                        </div>
+                    </div>
+                    <div class="ranking-post-title"></div>
+                    <div class="ranking-like-counter"></div>
+                    <div class="contributor"></div>
+                </div>
+            @endfor
+        </div>
+    </div>
+
+@endsection

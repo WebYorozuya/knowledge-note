@@ -1,38 +1,133 @@
-.rankings {
+.item {
+  text-shadow: 3px 3px 3px #373c52;
+  border: 1px ridge #faf4ee;
+  border-radius: 8px;
+  color: #faf4ee;
+  height: 50px;
+  font-size: 30px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #963257;
+  justify-content: center;
 }
 
-.rankings .ranking {
-  display: flex;
-  flex-direction: row;
-}
-
-.rankings .ranking > span {
-  display: inline-block;
-  margin: 15px;
-  font-size: 20px;
-}
-
-.total-ranking {
-  padding-left: 50px;
-}
-
-.total-ranking table {
-  border: 1px ridge black;
-  background-color: rgba(200, 200, 200, 0.4);
-}
-
-.total-ranking th {
-  height: 100px;
-  text-align: center;
-}
-
-.total-ranking td,
-.total-ranking tr {
+.sub-item {
+  text-shadow: 3px 3px 3px #373c52;
+  border: 1px ridge #faf4ee;
+  border-radius: 8px;
+  color: #faf4ee;
   height: 30px;
-  width: 50px;
-  border: 1px ridge black;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: rgba(150, 50, 87, 0.8);
+  justify-content: flex-start;
+  padding-left: 30px;
+  margin-top: 10px;
+}
+
+.sub-sub-item {
+  text-shadow: 3px 3px 3px #373c52;
+  border: 1px ridge #faf4ee;
+  border-radius: 8px;
+  color: #faf4ee;
+  height: 25px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: rgba(150, 50, 87, 0.5);
+  justify-content: flex-start;
+  padding-left: 30px;
+  margin-top: 5px;
+}
+
+.ranking-form .ranking .ranking-post-title,
+.ranking-form .ranking .rank {
+  height: 35px;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  text-shadow: -1px -1px rgba(55, 60, 82, 0.44), 1px 1px rgba(55, 60, 82, 0.38);
+  border: 1px ridge #faf4ee;
+}
+
+.ranking-form {
+  display: none;
+  flex-direction: column;
+}
+
+.ranking-form .ranking {
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.ranking-form .ranking .rank {
+  margin-left: 10px;
+  border-radius: 10px;
+  width: 70px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.ranking-form .ranking .ranking-post-title {
+  flex: 1;
+  color: #373c52;
+}
+
+.ranking-form .ranking .contributor {
+  width: 100px;
+  color: #373c52;
+}
+
+.ranking-form .ranking .ranking-like-counter {
+  width: 100px;
+  color: #373c52;
+}
+
+.crown {
+  display: none;
+  padding-right: 10px;
+}
+
+.block {
+  display: inline-block;
+}
+
+.ranking-form-show {
+  display: flex;
+}
+
+.rank-1 {
+  background-color: #d1b157;
+  border: 1px ridge #a7a7a7;
+  color: #d19d57;
+}
+
+.rank-2 {
+  background-color: #d0d0d0;
+  border: 1px ridge #a7a7a7;
+  color: #bcbcbc;
+}
+
+.rank-3 {
+  background-color: #8b5f2b;
+  border: 1px ridge #a7a7a7;
+  color: #815a2b;
+}
+
+.rank-4 {
+  background-color: #fff6eb;
+  border: 1px ridge #a7a7a7;
+}
+
+.rank-5 {
+  background-color: #fff6eb;
+  border: 1px ridge #a7a7a7;
 }
 
