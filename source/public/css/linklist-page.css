@@ -1,7 +1,6 @@
 .linkchips {
   display: flex;
   flex-direction: row;
-  justify-content: start;
   flex-wrap: wrap;
 }
 
