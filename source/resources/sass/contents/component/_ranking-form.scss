@@ -1,0 +1,76 @@
+// extend
+@import "../../extension/extend/rank-content";
+
+.ranking-form {
+    display: none;
+    flex-direction: column;
+    .ranking {
+        display: flex;
+        flex-direction: row;
+        border-radius: 8px;
+        margin-top: 10px;
+        .rank {
+            @extend %rank-content;
+            margin-left: 10px;
+            border-radius: 10px;
+            width: 70px;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+        .ranking-post-title {
+            @extend %rank-content;
+            flex: 1;
+            color: $black;
+        }
+        .contributor {
+            width: 100px;
+            color: $black;
+        }
+        .ranking-like-counter {
+            width: 100px;
+            color: $black;
+        }
+    }
+}
+
+.crown {
+    display: none;
+    padding-right: 10px;
+}
+
+.block {
+    display: inline-block;
+}
+
+.ranking-form-show {
+    display: flex;
+}
+
+.rank-1 {
+    background-color: rgb(209, 177, 87);
+    border: 1px ridge rgb(167, 167, 167);
+    color: rgb(209, 157, 87);
+}
+
+.rank-2 {
+    background-color: rgb(208, 208, 208);
+    border: 1px ridge rgb(167, 167, 167);
+    color: rgb(188, 188, 188);
+}
+
+.rank-3 {
+    background-color: rgb(139, 95, 43);
+    border: 1px ridge rgb(167, 167, 167);
+    color: rgb(129, 90, 43);
+}
+
+.rank-4 {
+    background-color: rgb(255, 246, 235);
+    border: 1px ridge rgb(167, 167, 167);
+}
+
+.rank-5 {
+    background-color: rgb(255, 246, 235);
+    border: 1px ridge rgb(167, 167, 167);
+}

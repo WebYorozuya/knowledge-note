@@ -1,0 +1,11 @@
+@mixin item-default($standard-size: 50px) {
+    text-shadow: 3px 3px 3px $black;
+    border: 1px ridge $white;
+    border-radius: 8px;
+    color: $white;
+    height: $standard-size;
+    font-size: $standard-size * 0.6;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
