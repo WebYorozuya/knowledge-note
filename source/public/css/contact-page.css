@@ -66,6 +66,28 @@
   border-bottom: none;
 }
 
+.blue-btn-middle {
+  width: 80px;
+  height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  font-weight: bold;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(0, 0, 0, 0.38);
+  color: #005fa2;
+  background-color: #005fa2;
+  border-bottom: solid 3px #003e6b;
+  font-size: 10px;
+}
+
+.blue-btn-middle:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+
 h2 {
   font-weight: 300;
   text-decoration: underline;

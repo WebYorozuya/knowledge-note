@@ -30,4 +30,12 @@
     font-size: 10px;
 }
 
+.blue-btn-middle {
+    @include btn-default(40px);
+    color: $blue;
+    background-color: $blue;
+    border-bottom: solid 3px $dark-blue;
+    font-size: 10px;
+}
+
 

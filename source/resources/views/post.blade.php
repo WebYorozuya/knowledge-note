@@ -8,7 +8,7 @@
                     本日のおさない学長の格言
                 </div>
                 <div class="card">
-                    <div class="card-body text-center">
+                    <div class="card-body">
                         知識定着させたいなら、誰かにアウトプット！
                     </div>
                 </div>
@@ -33,7 +33,7 @@
         </div>
         <div class="links justify-content-start">
             <div class="blue-linkcard">
-                <div class="link-title bd-black">同じ題名</div>
+                <div class="link-title">同じ題名</div>
                 <div class="link-info"></div>
             </div>
             @for ($i = 0; $i < 10; $i++)
@@ -43,8 +43,8 @@
         </div>
         <div class="links">
             <div class="yellow-linkcard">
-                <div class="link-title bd-black">同リンク</div>
-                <div class="link-info bd-black">Laravel</div>
+                <div class="link-title">同リンク</div>
+                <div class="link-info">Laravel</div>
             </div>
             @for ($i = 0; $i < 10; $i++)
                 @component('components.postcard')
