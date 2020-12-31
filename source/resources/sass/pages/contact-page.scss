@@ -3,11 +3,12 @@
 
 // component
 @import "../contents/component/btn";
+@import "../contents/component/item";
 
-h2 {
-    font-weight: 300;
-    text-decoration: underline;
-    margin-left: 15px;
+.contact-item {
+    @include item-default();
+    background-color: $red;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
