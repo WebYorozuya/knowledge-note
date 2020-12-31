@@ -31,6 +31,7 @@
     <link href="{{ asset('css/post-page.css') }}" rel="stylesheet">
     <link href="{{ asset('css/contact-page.css') }}" rel="stylesheet">
     <link href="{{ asset('css/ranking-page.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/setting-page.css') }}" rel="stylesheet">
 </head>
 
 <body>
