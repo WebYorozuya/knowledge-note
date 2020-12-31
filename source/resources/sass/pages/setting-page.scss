@@ -1,0 +1,44 @@
+// utility
+@import "../contents/utility/colors";
+
+// component
+@import "../contents/component/btn";
+@import "../contents/component/item";
+
+.setting-item {
+    @include item-default();
+    background-color: $red;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav-tabs {
+    font-weight: bold;
+    .nav-link.active {
+        background-color: $white;
+        border: 1px solid transparent;
+        border-bottom: 0px solid transparent;
+        font-weight: bold;
+    }
+}
+
+form {
+    border: 0px groove $white;
+    box-shadow: 0px 0px 0px transparent;
+    margin-top: 0px;
+}
+
+.tab-pane.active .tab-pane-header {
+    padding: 2.5rem;
+    background-color: $white;
+    border-radius: 0.5rem;
+}
+
+.form-item {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.tab-pane:first-child .tab-pane-header {
+    border-top-left-radius: 0;
+}
