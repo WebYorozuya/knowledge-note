@@ -2,9 +2,9 @@
 
 @section('content')
 
-    <div class="container">
-        <form class="p-5">
-            <h2>CONTACT US</h2>
+    <div class="container justify-content-center col-md-8">
+        <div class="contact-item justify-content-center col-md-12">CONTACT US</div>
+        <form>
             <div class="form-group col-md-6">
                 <label for="email">Your email address</label>
                 <input type="email" class="form-control" id="email" placeholder="例：xxx@example.ne.jp">
