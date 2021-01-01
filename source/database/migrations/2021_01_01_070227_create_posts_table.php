@@ -17,7 +17,7 @@ class CreatePostsTable extends Migration
             $table->bigIncrements('id');
             $table->string('title', 255);
             $table->text('text');
-            $table->tinyInt('bookmark');
+            $table->string('bookmark', 2);
             $table->timestamps();
             $table->foreignId('user_id')->constrained();
         });
