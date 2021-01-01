@@ -15,7 +15,7 @@ class CreateOsanaiMarksTable extends Migration
     {
         Schema::create('osanai_marks', function (Blueprint $table) {
             $table->id();
-            $table->tinyInt('osanai_mark');
+            $table->string('osanai_mark', 2);
             $table->timestamps();
         });
     }
