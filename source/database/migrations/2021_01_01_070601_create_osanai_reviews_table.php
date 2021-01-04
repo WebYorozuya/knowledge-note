@@ -17,7 +17,8 @@ class CreateOsanaiReviewsTable extends Migration
             $table->id();
             $table->text('osanai_review');
             $table->timestamps();
-            $table->foreignId('post_id')->constrained();
+            $table->integer('post_id')->unsigned(); 
+            $table->foreign('post_id')->references('id')->on('posts');
         });
     }
 
