@@ -1,4 +1,4 @@
-@extends('layouts.authheader')
+@extends('layouts.header_auth')
 <!-- homelayoutを使用するページが準備できたら、authlayoutに戻す。 -->
 
 @section('content')
