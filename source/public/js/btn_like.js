@@ -105,10 +105,10 @@
             LIKE_BTN_1[i].classList.toggle("fas");
             LIKE_BTN_1[i].classList.toggle("far");
             if (LIKE_BTN_1[i].classList.contains("color-change")) {
-                likeCounter_1[i].textContent = num + 1;
+                likeCounter_1[i].textContent = String(num + 1);
             }
             else {
-                likeCounter_1[i].textContent = num - 1;
+                likeCounter_1[i].textContent = String(num - 1);
             }
         });
     };

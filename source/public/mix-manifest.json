@@ -12,5 +12,7 @@
     "/css/post-page.css": "/css/post-page.css",
     "/css/bootstrap.css": "/css/bootstrap.css",
     "/js/box_search.js": "/js/box_search.js",
-    "/js/btn_like.js": "/js/btn_like.js"
+    "/js/btn_like.js": "/js/btn_like.js",
+    "/js/btn_ranking.js": "/js/btn_ranking.js",
+    "/js/change_rank_design.js": "/js/change_rank_design.js"
 }
