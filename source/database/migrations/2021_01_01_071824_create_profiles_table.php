@@ -14,10 +14,10 @@ class CreateProfilesTable extends Migration
     public function up()
     {
         Schema::create('profiles', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->increments('id');
             $table->string('name', 128);
-            $table->string('account_name', 128);
-            $table->string('user_image', 255);
+            $table->string('account_name', 128)->unique();
+            $table->string('user_image', 255)->nullable();
             $table->string('email', 128)->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->timestamps();

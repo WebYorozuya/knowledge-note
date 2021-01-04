@@ -15,7 +15,7 @@ class CreateOsanaiMarksTable extends Migration
     {
         Schema::create('osanai_marks', function (Blueprint $table) {
             $table->id();
-            $table->string('osanai_mark', 2);
+            $table->boolean('osanai_mark')->default(false);
             $table->timestamps();
         });
     }
