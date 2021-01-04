@@ -14,6 +14,8 @@ const mix = require('laravel-mix');
 mix.ts('resources/js/app.js', 'public/js')
     .ts('resources/js/typescript/box_search.ts', 'public/js')
     .ts('resources/js/typescript/btn_like.ts', 'public/js')
+    .ts('resources/js/typescript/btn_ranking.ts', 'public/js')
+    .ts('resources/js/typescript/change_rank_design.ts', 'public/js')
     .sass('resources/sass/frame/header-auth.scss', 'public/css')
     .sass('resources/sass/frame/header.scss', 'public/css')
     .sass('resources/sass/pages/welcome-page.scss', 'public/css')
